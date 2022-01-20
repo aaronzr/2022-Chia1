@@ -1,6 +1,6 @@
 # China
 
-<img src="Cabana Logo.png" alt="Cabana Logo"/>
+<img src="chia-logo.svg" alt="Chia Logo"/>
 
  ## Project Overview
  
