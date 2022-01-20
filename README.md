@@ -4,7 +4,7 @@
 
  ## Project Overview
  
- We are reimagining the in-car entertainment system for the self-driving age by building an engaging trivia game.
+ We are reimagining sustainable future of crypocurrency and blockchain technology.
 
 
 # Links
