@@ -38,7 +38,7 @@ Member |  Email | Photo
 --- | --- | ---
 Aaron Reed | aaron73@stanford.edu| <img src="/Resources/Headshots/PauNormal.jpg" alt="Pau Photo" height="200" />
 Ende Shen |endeshen@stanford.edu | <img src="/Resources/Headshots/Will headshot.jpg" alt="Will Photo" height="200" />
-Finn Dayton | finniusd@stanford.edu | <img src="/Resources/Headshots/Jack Headshot.jpeg" alt="Jack Photo" height="200"/>
+Finn Dayton | finniusd@stanford.edu | <img src="finn.jpg" alt="Finn Dayton" height="200"/>
 Jennifer He |jenhe@stanford.edu | <img src="/Resources/Headshots/received_418816395692875.jpeg" alt="Ken Photo" height="200"/>
 
 # Team Skills Matrix
