@@ -1,4 +1,4 @@
-# Cabana
+# China
 
 <img src="Cabana Logo.png" alt="Cabana Logo"/>
 
@@ -59,3 +59,5 @@ Email: teamcabana@lists.stanford.edu
 Slack: [cs210-teamdaimler2020.slack.com](cs210-teamdaimler2020.slack.com)
 
 Documentation on Google Drive available [here](https://drive.google.com/drive/u/1/folders/0AAK6_efKZUj2Uk9PVA)
+
+Notion: 
