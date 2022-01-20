@@ -4,7 +4,7 @@
 
  ## Project Overview
  
- We are reimagining a sustainable future of crypocurrency and blockchain technology.
+ We are reimagining a sustainable future of cryptocurrency and blockchain technology. We plan to build a DeFi product on top of Chia that leverages Chia's energy and time efficient consensus mechansism. 
 
 
 # Links
