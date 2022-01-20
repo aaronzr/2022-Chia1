@@ -57,4 +57,4 @@ Slack: [*** to be decided ***]
 
 Documentation on Google Drive available *** TBD *** [here](https://drive.google.com/drive/u/1/folders/0AAK6_efKZUj2Uk9PVA)
 
-Notion: https://www.notion.so/7d1ab7c855514f59820a2735849c93b7?v=c5219c15ac164eb8837d339129bafad3
+Notion: https://www.notion.so/Team-Home-ed2babbb88504af587e482fb26b0ff1d
