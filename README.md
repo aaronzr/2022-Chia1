@@ -10,11 +10,6 @@
 # Links
 
 [Team reading list @ notion] https://www.notion.so/Chia-Resources-Links-b72b01a400ab4b7a9344ba4552e01d70
-
-[Play CabanaTrivia](https://master-dev.d28ds4nnoxwdjw.amplifyapp.com)
-
- [Theme Music](https://open.spotify.com/user/21kv2tf3fcihbiwnlgww7asly/playlist/65LWzmY6oKjGv141vKFQqX?si=bn9aqPjESgKEjo_0pvkYFQ)
-
  # :rocket: Latest Updates :rocket:
 
 
