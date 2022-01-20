@@ -36,28 +36,25 @@ Backend TBD
  # Team Members
 Member |  Email | Photo
 --- | --- | ---
-Pau Anzaldo | panzaldo@stanford.edu| <img src="/Resources/Headshots/PauNormal.jpg" alt="Pau Photo" height="200" />
-Wilhelm Bolin |wbolin@stanford.edu | <img src="/Resources/Headshots/Will headshot.jpg" alt="Will Photo" height="200" />
-Jack Gartland | gartland@stanford.edu | <img src="/Resources/Headshots/Jack Headshot.jpeg" alt="Jack Photo" height="200"/>
-Kenneth Nturibi |knturibi@stanford.edu | <img src="/Resources/Headshots/received_418816395692875.jpeg" alt="Ken Photo" height="200"/>
-Johnson Song | johnsonsong@stanford.edu | <img src="/Resources/Headshots/Johnson Headshot.jpg" alt="Johnson Photo" height="200"/>
+Aaron Reed | aaron73@stanford.edu| <img src="/Resources/Headshots/PauNormal.jpg" alt="Pau Photo" height="200" />
+Ende Shen |endeshen@stanford.edu | <img src="/Resources/Headshots/Will headshot.jpg" alt="Will Photo" height="200" />
+Finn Dayton | finniusd@stanford.edu | <img src="/Resources/Headshots/Jack Headshot.jpeg" alt="Jack Photo" height="200"/>
+Jennifer He |jenhe@stanford.edu | <img src="/Resources/Headshots/received_418816395692875.jpeg" alt="Ken Photo" height="200"/>
 
 # Team Skills Matrix
 
 Name | Skills | Personal Traits | Desired Growth | Weakness
 --- | --- | --- | --- | ---
-Pau Anzaldo | Full-stack development, iOS, UI/UX,rapid prototyping | Disciplined, extroverted, listener | Product Management | short term memory
-Wilhelm Bolin | Product/Project Management, Finance, Business, Strategy, Web Applications | Outgoing and Open. Big Picture type of person. Like direct and constructive feedback | Product Management and Programming | Programming
-Jack Gartland | Front-end and full-stack development, user research and design thinking process | Driven, social, like to plan ahead | Product Management, interfacing with partners | Sometimes get absorbed in my own tasks and lose sight of the team
-Kenneth Nturibi | Fullstack dev - web and mobile-with a greater focus on backend, AI, security | Empatheric, Hardworking, Resorative, fun loving | PM, Setting engineering timelines | Can be indecisive
-Johnson Song | UI/UX, Data Visualization, Product Design, Graphic Design | Creative, artistic, compassionate, and fun! | Product Design and Programming | Programming, bluntness
+Aaron | Python, C, C++, some Java; interest in crypto (I mine) | Creative, questioning, evidence-based | Working on a team, setting and executing goals, networking... and Solidity/Chialisp | Procrastination, time management, going off on tangents in discussions
+Ende | Python, AI, some venture capital experience | love doing research | work with teammates, learn blackchain eco system | taking a step back and having more outreach
+Finn | Python, Solidity, Javascript, general knowledge of crypto | hardworking | working on a team, time management, Solidity | procrasination 
+Jennifer | Python, JavaScript, web dev, design, AI, very general knowledge of crypto | creative, analytical | working on a team, learning more about crypto and sustainability | procrastination, public speaking
+
 
 # Team Communication
 
-Email: teamcabana@lists.stanford.edu
+Slack: [*** to be decided ***]
 
-Slack: [cs210-teamdaimler2020.slack.com](cs210-teamdaimler2020.slack.com)
-
-Documentation on Google Drive available [here](https://drive.google.com/drive/u/1/folders/0AAK6_efKZUj2Uk9PVA)
+Documentation on Google Drive available *** TBD *** [here](https://drive.google.com/drive/u/1/folders/0AAK6_efKZUj2Uk9PVA)
 
 Notion: 
