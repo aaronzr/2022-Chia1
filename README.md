@@ -6,7 +6,7 @@
  
  We are reimagining a sustainable future of cryptocurrency and blockchain technology. We plan to build a DeFi product on top of Chia that leverages Chia's energy and time efficient consensus mechansism. 
 
-[Project theme]<ProjectTheme-Crypto-Chia.pdf>
+[Project theme](https://github.com/cs210/2022-Chia1/blob/main/ProjectTheme-Crypto-Chia.pdf)
 
 # Links
 
