@@ -36,7 +36,7 @@ Jennifer | Python, JavaScript, web dev, design, AI, very general knowledge of cr
 
 # Team Communication
 
-Slack: [*** to be decided ***]
+Slack: https://join.slack.com/share/enQtMjk4NzM5MDE2NTc0OC1jODk1OWViYTg5YTViMzMzZDllYWVkYjRmNzZkNzU3NjljZDhhODdjMTMzMTlmYTAxNTQwZjA5MGQzYTgzNGM1
 
 Documentation on Google Drive available *** TBD *** [here](https://drive.google.com/drive/u/1/folders/0AAK6_efKZUj2Uk9PVA)
 
