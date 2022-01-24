@@ -64,3 +64,5 @@ Jennifer:
 
 ### Reading list
 **Chia grant program:** [https://www.chia.net/2021/08/18/chia-cultivation-grant-program.html#:~:text=TL%3BDR Chia is launching,the Chia ecosystem at large.&text=To that end%2C in an,have created this grant program](https://www.chia.net/2021/08/18/chia-cultivation-grant-program.html#:~:text=TL%3BDR%20Chia%20is%20launching,the%20Chia%20ecosystem%20at%20large.&text=To%20that%20end%2C%20in%20an,have%20created%20this%20grant%20program).
+
+**Chia's Costa Rica project ** https://www.businesswire.com/news/home/20211111005809/en/Costa-Rica-and-Chia-Announce-Partnership-to-Support-Climate-and-Government-Initiatives
