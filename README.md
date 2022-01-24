@@ -45,29 +45,22 @@ Notion: https://www.notion.so/Team-Home-ed2babbb88504af587e482fb26b0ff1d
 # Team Meeting notes
 
 ## Jan 23
-
-**Chia grant program:** [https://www.chia.net/2021/08/18/chia-cultivation-grant-program.html#:~:text=TL%3BDR Chia is launching,the Chia ecosystem at large.&text=To that end%2C in an,have created this grant program](https://www.chia.net/2021/08/18/chia-cultivation-grant-program.html#:~:text=TL%3BDR%20Chia%20is%20launching,the%20Chia%20ecosystem%20at%20large.&text=To%20that%20end%2C%20in%20an,have%20created%20this%20grant%20program).
+### We are presenting within our groups topics below:
 
 Ende: dapps
-
-intro to dapps [https://www.youtube.com/watch?v=oPIupbsVimc](https://www.youtube.com/watch?v=oPIupbsVimc)
-
-intro to dapps (technical): [https://www.youtube.com/watch?v=8wMKq7HvbKw](https://www.youtube.com/watch?v=8wMKq7HvbKw)
-
-dapps featured in ethereum.org: [https://ethereum.org/en/dapps/](https://ethereum.org/en/dapps/)
+--intro to dapps [https://www.youtube.com/watch?v=oPIupbsVimc](https://www.youtube.com/watch?v=oPIupbsVimc)
+--intro to dapps (technical): [https://www.youtube.com/watch?v=8wMKq7HvbKw](https://www.youtube.com/watch?v=8wMKq7HvbKw)
+--dapps featured in ethereum.org: [https://ethereum.org/en/dapps/](https://ethereum.org/en/dapps/)
 
 Aaron: technical, system of chia
-
-CAT1 Standard: [https://www.chia.net/2021/11/15/the-CATs-out-of-the-bag.en.html](https://www.chia.net/2021/11/15/the-CATs-out-of-the-bag.en.html)
-
-ERC-20: potential for music ownership
-
-Other protocols: ERC 721, ERC 1155
-
-[https://cdbaby.com/](https://cdbaby.com/) - current state of music distribution
+--CAT1 Standard: [https://www.chia.net/2021/11/15/the-CATs-out-of-the-bag.en.html](https://www.chia.net/2021/11/15/the-CATs-out-of-the-bag.en.html)
+--ERC-20: potential for music ownership
+--Other protocols: ERC 721, ERC 1155
+--[https://cdbaby.com/](https://cdbaby.com/) - current state of music distribution
 
 Jennifer:
+--tether - [https://www.youtube.com/watch?v=-whuXHSL1Pg](https://www.youtube.com/watch?v=-whuXHSL1Pg)
+--A MVP codebase of maybe smart contracts (minimal working example) built on top of ChiaLisp (incorporating Chia API)
 
-tether - [https://www.youtube.com/watch?v=-whuXHSL1Pg](https://www.youtube.com/watch?v=-whuXHSL1Pg)
-
-A MVP codebase of maybe smart contracts (minimal working example) built on top of ChiaLisp (incorporating Chia API)
+### Reading list
+**Chia grant program:** [https://www.chia.net/2021/08/18/chia-cultivation-grant-program.html#:~:text=TL%3BDR Chia is launching,the Chia ecosystem at large.&text=To that end%2C in an,have created this grant program](https://www.chia.net/2021/08/18/chia-cultivation-grant-program.html#:~:text=TL%3BDR%20Chia%20is%20launching,the%20Chia%20ecosystem%20at%20large.&text=To%20that%20end%2C%20in%20an,have%20created%20this%20grant%20program).
