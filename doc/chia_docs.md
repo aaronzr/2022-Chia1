@@ -2,15 +2,35 @@
 
 This document compiles information that we have learned about Chia and associated technologies for easy reference.
 
-<img src="chia-logo.svg" alt="Chia Logo"/>
+Resources suggested by Joe: 
+* [Chia whitepaper](https://www.chia.net/approach/)
 
-## Motivation for Chia
+* [CAT1 token spec](https://www.chia.net/2021/11/15/the-CATs-out-of-the-bag.en.html)
 
-The Chia business whitepaper whitepaper references 
+* [Chialisp \(smart contract language\)](https://chialisp.com/)
 
-###
- 
- We are reimagining a sustainable future of cryptocurrency and blockchain technology. We plan to build a DeFi product on top of Chia that leverages Chia's energy and time efficient consensus mechansism. 
+* [Official Chia Docs](https://docs.chia.net/docs/01introduction/what-is-chia/)
+
+* [Chia greenpaper (PoTS algo)](https://www.chia.net/greenpaper/)
+
+## How Chia works
+
+The Chia business whitepaper whitepaper references how it improves on Bitcoin, so it is worth understanding how Bitcoin works as a baseline.  After we know the advantages and disadvantages of Bitcoin, we can understand how Chia addresses these.
+
+
+### Bitcoin
+
+Sources: [Bitcoin whitepaper (2009)](https://bitcoin.org/en/bitcoin-paper) [3Blue1Brown explainer (2017)](https://www.youtube.com/watch?v=bBC-nXj3Ng4) [Whiteboard Crypto explainer (2021)]()
+
+Bitcoin tries to solve the problems of conventional transaction methods using cryptography.
+
+Medium |  Advantages | Disadvantages
+--- | --- | ---
+Cash | <ul><li>item1</li><li>item2</li></ul> | <img src="res/aaron.JPEG" alt="Aaron Reed" height="200" />
+Credit cards |endeshen@stanford.edu | <img src="res/ende.jpg" alt="Ende Shen" height="200" />
+Finn Dayton | finniusd@stanford.edu | <img src="res/finn.jpg" alt="Finn Dayton" height="200"/>
+Jennifer He |jenhe@stanford.edu | <img src="res/jennifer.jpg" alt="Jennifer He" height="200"/>
+Liaison: Joe Latone | jlatone@us.ibm.com |
 
 [Project theme](https://github.com/cs210/2022-Chia1/blob/main/ProjectTheme-Crypto-Chia.pdf)
 
