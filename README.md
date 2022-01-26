@@ -43,6 +43,16 @@ Documentation on Google Drive available *** TBD *** [here](https://drive.google.
 Notion: https://www.notion.so/Team-Home-ed2babbb88504af587e482fb26b0ff1d
 
 # Team Meeting notes
+## Jan 25
+We met up and presented our respective research areas.
+Below are links to resources and insights:
+
+Dapps: https://docs.google.com/document/d/1AcObyjksnjtOSv10UrNRsW9gxR95POVWRsaDZ7xPD0s/edit?usp=sharing
+Chia Tech Stack:
+Chia API's:
+Bitcoin & Chia mechanism: 
+
+Additionally, we proposed three potential ideas for our product, which can be found in /product/ideas.md
 
 ## Jan 23
 ### We are presenting within our groups topics below:
