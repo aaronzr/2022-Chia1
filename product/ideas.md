@@ -24,7 +24,9 @@ etc. | etc.
 
 Back in the day (until c. 2000s), musicians had to sign a contract with a record company (e.g. Sony, RCA Victor) in order to sell their music on vinyl and/or CDs. This, of course, required a lot of trust in the record company on the part of the artists and often gave record companies undue influence over their artists, e.g., telling them what kind of music to write based on what sells.  The system also indirectly punished artists for being too innovative, since it was risky for record companies to sign someone who deviates too much from the mainstream.
 
-Digital streaming services (Pandora, iTunes/Apple Music, Spotify, YouTube Music, etc.) 
+Digital streaming services (Pandora, iTunes/Apple Music, Spotify, YouTube Music, etc.) opened up the market by allowing artists and audiences to connect more easily, giving musicians more autonomy and freedom. However, the payment model also changed: musicians went from making dollars per album sold in record stores, to cents per song bought on iTunes, to fractions of a cent per Spotify stream.
+
+
 
 Other platforms that are more directly artist-facing (Soundcloud, Bandcamp) give an artist easy access to publish music, but are harder to monetize, pay less, and have far less reach than more mainstream platforms.
 
