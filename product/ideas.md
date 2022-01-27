@@ -2,7 +2,7 @@
 
 ## On-chain COVID tests
  
-The politically contentious status of workplace vaccine mandates, international travel restrictions, and fear due to vaccine misinformation creates a strong incentive for faked COVID test results. **(Finn fill in)**
+The politically contentious status of workplace vaccine mandates, international travel restrictions, and fear due to vaccine misinformation creates a strong incentive for faked COVID test results. Faking a covid test result is remarkably easy for two reasons. 1) There is not standard report format 2) there exists no centrally-used database with recorded results that is easily accessible by nation states and other organizations. 
 
 Pros/Value-adds |  Cons/Challenges | 
 --- | --- 
