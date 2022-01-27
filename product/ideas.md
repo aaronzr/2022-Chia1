@@ -22,13 +22,15 @@ etc. | etc.
 
 ## On-chain music royalty distribution
 
-Back in the day (until c. 2000s), musicians had to sign a contract with a record company (e.g. Sony, RCA Victor) in order to sell their music on vinyl and/or CDs. This, of course, required a lot of trust in the record company on the part of the artists and often gave record companies undue influence over their artists, e.g., telling them what kind of music to write based on what sells.  The system also indirectly punished artists for being too innovative, since it was risky for record companies to sign someone who deviates too much from the mainstream.
+Back in the day (until c. 2000s), musicians had to sign a contract with a [record company](https://en.wikipedia.org/wiki/Record_label#Major_labels) (e.g. Sony, RCA Victor) in order to sell their music on vinyl and/or CDs. This often gave record companies undue influence over their artists, e.g., telling them what kind of music to write based on what sells.  The system also indirectly punished artists for being too innovative, since it was risky for record companies to sign someone who deviates too much from the mainstream.  In addition, [performance rights organizations](https://en.wikipedia.org/wiki/Performance_rights_organisation) (ASCAP, BMI) ensured that musicians received royalties whenever their music was played on radio or television.
 
-Digital streaming services (Pandora, iTunes/Apple Music, Spotify, YouTube Music, etc.) opened up the market by allowing artists and audiences to connect more easily, giving musicians more autonomy and freedom. However, the payment model also changed: musicians went from making dollars per album sold in record stores, to cents per song bought on iTunes, to fractions of a cent per Spotify stream.
+Digital streaming services (Napster, Pandora, iTunes/Apple Music, Spotify, YouTube Music, etc.) opened up the market by allowing artists and audiences to connect more easily, giving musicians more autonomy and freedom. However, the payment model also changed: musicians went from making dollars per album sold in record stores, to cents per song bought on iTunes, to fractions of a cent per Spotify stream.  Additionally, the proliferation of new music platrorms has made performance rights management much more complicated. This has necessitated companies called "distributors" (CDBaby, DistroKid) that distribute music to hundreds of platforms and centralize royalty collection and payment.
 
+Some problems with the current model include:
+*  Major platforms like iTunes and Spotify only accept music from small artists via a distributor.
+*  Other platforms that are more directly artist-facing (Soundcloud, Bandcamp) give an artist easy access to publish music, but are harder to monetize, pay less, and have far less reach than more mainstream platforms.
+*  YouTube algortithms to identify copyrighted music are imperfect, and often create more headache for YouTubers than remuneration for musicians.
+*  Distributors have been accused of [dishonest practices](https://www.youtube.com/watch?v=QIeS1pL4N6E), such as claiming royalties for unregistered songs.
+*  **These "middleman" companies each [take](https://www.recordingconnection.com/reference-library/recording-entrepreneurs/how-do-record-labels-turn-a-profit/) [their](https://cdbaby.com/cd-baby-cost.aspx) [cut](https://artists.apple.com/support/1124-apple-music-insights-royalty-rate), consuming most of the revenue long before any royalties reach the artist.**
 
-
-Other platforms that are more directly artist-facing (Soundcloud, Bandcamp) give an artist easy access to publish music, but are harder to monetize, pay less, and have far less reach than more mainstream platforms.
-
- 
 
