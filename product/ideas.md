@@ -49,7 +49,6 @@ We propose a blockchain solution that takes the place of music distributors and 
 Pros/Value-adds |  Cons/Challenges | 
 --- | --- 
 Artist receives revenue directly, like selling an album at a gig | Difficult to educate musicians, convince them to try _yet another_ platform
-Fans can become stakeholders in the music they love; new form of engagement and ownership | 
+Fans can become stakeholders in the music they love; new form of engagement and ownership | Expect pushback from established music industry, e.g. ultimatums directed at artists
 Stakeholder fans have incentive to promote the music, giving artists "word-of-mouth" advertising | 
-&nbsp; | Expect pushback from established music industry, e.g. ultimatums directed at artists
 Small artists can sell the royalty share _itself_, receive cash-in-hand rather than waiting for royalty checks | 
