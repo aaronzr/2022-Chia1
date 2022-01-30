@@ -50,5 +50,14 @@ Pros/Value-adds |  Cons/Challenges |
 --- | --- 
 Artist receives revenue directly, like selling an album at a gig | Difficult to educate musicians, convince them to try _yet another_ platform
 Fans can become stakeholders in the music they love; new form of engagement and ownership | Expect pushback from established music industry, e.g. ultimatums directed at artists
-Stakeholder fans have incentive to promote the music, giving artists "word-of-mouth" advertising | 
-Small artists can sell the royalty share _itself_, receive cash-in-hand rather than waiting for royalty checks | 
+Stakeholder fans have incentive to promote the music, giving artists "word-of-mouth" advertising | Compete with existing music blockchains, e.g. Audius
+Small artists can sell the royalty share _itself_, receive cash-in-hand rather than waiting for royalty checks | Not directly relevant to Chia's environmentalism
+
+### FAQ
+
+**Should we stream or not?**
+I think we should begin by NOT streaming and just acting in place of record labels, PROs, and distributors. This will allow our clients, the artists, to have the advantage of visibility on a large platform like Spotify while still saving money by using our service. Later on, if there's demand for it from artists, we could look into rolling the streaming service into our blockchain solution like Audius has done; by that time, we will have gained traction and will have some artists to promote us.
+
+Alternatively, we could look into partnering with a streaming service where artists already keep most of the revenue, like Bandcamp. However, this leaves behind the huge market share of streams held by tech companies (Spotify, Apple, Google, Amazon), so I think it would be best to interface with the big players first.
+
+**How will we compete with Audius, Sound, etc.?**
