@@ -52,7 +52,13 @@ We're looking into building a subset of what we pitched to the VC in order to
 make it more feasible that we can build something in 1.5 quarters.
 
 Ideas discussed in [OKRs and KPIs](https://docs.google.com/document/d/1OHoNefildGwwCYHj2ygEQYmbYHIhpuSBs7_-v6s45W0/edit):
-Chia wallet | Joe's suggestion. Already built: [nucle.io]
+
+Idea | Info
+--- | ---
+Chia wallet | Joe's suggestion. Already built: [nucle.io]. Should we try to interface with this or build our own?
+NFT platform | Allow people to mint NFTs on Chia. Good middle-ground for feasibility. Functionality similar to [OpenSea](https://opensea.io/asset/create) or [Polygon](https://docs.polygon.technology/). Assumes we can connect to a Chia wallet.
+Music royalty distribution | The original idea. Probably not achievable in 1.5 quarters.
+(two more that I don't remember -- **Finn fill in**) | 🤷‍♂️
 
 ## Jan 25
 We met up and presented our respective research areas.
