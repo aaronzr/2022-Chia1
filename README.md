@@ -13,7 +13,10 @@
 [Team reading list @ notion] https://www.notion.so/Chia-Resources-Links-b72b01a400ab4b7a9344ba4552e01d70
  # :rocket: Latest Updates :rocket:
 
-
+## Class deliverables
+Date | Thing 
+--- | --- 
+2/8 | [OKRs and KPIs](https://docs.google.com/document/d/1OHoNefildGwwCYHj2ygEQYmbYHIhpuSBs7_-v6s45W0/edit)
  
  # Team Members
 Member |  Email | Photo
