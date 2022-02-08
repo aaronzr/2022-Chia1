@@ -51,18 +51,20 @@ We discussed the feedback we received from our liaison and our VC guest last wee
 We're looking into building a subset of what we pitched to the VC in order to
 make it more feasible that we can build something in 1.5 quarters.
 
+We also gave some serious thought to just ditching Chia like the Chia 3 team did and building an ETH dapp. Ultimately we decided (for now) to stick to trying to build something that improves the Chia ecosystem.
+
 Ideas discussed in [OKRs and KPIs](https://docs.google.com/document/d/1OHoNefildGwwCYHj2ygEQYmbYHIhpuSBs7_-v6s45W0/edit):
 
 Idea | Info
 --- | ---
-Chia wallet | Joe's suggestion. Already built: [nucle.io]. Should we try to interface with this or build our own?
+Chia wallet | Joe's suggestion. Already built: [Nucle](nucle.io). Should we try to interface with this or build our own?
 NFT platform | Allow people to mint NFTs on Chia. Good middle-ground for feasibility. Functionality similar to [OpenSea](https://opensea.io/asset/create) or [Polygon](https://docs.polygon.technology/). Assumes we can connect to a Chia wallet.
 Music royalty distribution | The original idea. Probably not achievable in 1.5 quarters.
 (two more that I don't remember -- **Finn fill in**) | 🤷‍♂️
 
-**Meta-idea:** Two of us attended [Chia's AMA](https://www.youtube.com/watch?v=lxi8svrIylY) about their [updated business whitepaper](https://twitter.com/chia_project/status/1489034223067402240). The impression we got is that, despite being a relatively mature project, the Chia ecosystem is still at the level of accessibility you'd expect of a months-old altcoin project. Chia's audience is mostly hardcore blockchain geeks, most of whom farm Chia themselves. There is a lot of room for growth and engagement of the wider crypto community when you compare Chia's ecosystem to, say, Ethereum's. It seems like Chia wants to fund projects that make Chia more accessible and reduce the expertise required to start using Chia. Example: [nucle.io] is JUST a web-based Chia wallet, but it was the first Cultivation Grant recipient.
+**Meta-idea:** Two of us attended [Chia's AMA](https://www.youtube.com/watch?v=lxi8svrIylY) about their [updated business whitepaper](https://twitter.com/chia_project/status/1489034223067402240). The impression we got is that, despite being a relatively mature project, the Chia ecosystem is still at the level of accessibility you'd expect of a months-old altcoin project. Chia's audience is mostly hardcore blockchain geeks, most of whom farm Chia themselves. There is a lot of room for growth and engagement of the wider crypto community when you compare Chia's ecosystem to, say, Ethereum's. It seems like Chia wants to fund projects that make Chia more accessible and reduce the expertise required to start using Chia. Example: [Nucle](nucle.io) is JUST a web-based Chia wallet, but it was the first Cultivation Grant recipient.
 
-It seems worthwhile to look at where Chia is compared to ETH, and maybe try to build the _next_ thing that would narrow the gap of what's available to Chia developers/users compared to ETH devs/users. I.e., we now have a [lightweight node]()
+It seems worthwhile to look at where Chia's toolset is compared to ETH, and maybe try to build the _next_ thing that would narrow the gap of what's available to Chia developers/users compared to ETH devs/users. I.e., we now have a [lightweight node](https://www.chiaexplorer.com/blockchain/address/xch1w8ehe3mwgtjsqzaplpllqpclql2nxna76fp677643jsfvmn4m80q937jhj) and a wallet that doesn't require a node: what's the next easiest thing to build that ETH has but Chia doesn't?
 
 ## Jan 25
 We met up and presented our respective research areas.
