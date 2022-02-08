@@ -46,6 +46,14 @@ Documentation on Google Drive available *** TBD *** [here](https://drive.google.
 Notion: https://www.notion.so/Team-Home-ed2babbb88504af587e482fb26b0ff1d
 
 # Team Meeting notes
+## Feb 7
+We discussed the feedback we received from our liaison and our VC guest last week.
+We're looking into building a subset of what we pitched to the VC in order to
+make it more feasible that we can build something in 1.5 quarters.
+
+Ideas discussed in [OKRs and KPIs](https://docs.google.com/document/d/1OHoNefildGwwCYHj2ygEQYmbYHIhpuSBs7_-v6s45W0/edit):
+
+
 ## Jan 25
 We met up and presented our respective research areas.
 Below are links to resources and insights:
