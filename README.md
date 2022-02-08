@@ -52,7 +52,7 @@ We're looking into building a subset of what we pitched to the VC in order to
 make it more feasible that we can build something in 1.5 quarters.
 
 Ideas discussed in [OKRs and KPIs](https://docs.google.com/document/d/1OHoNefildGwwCYHj2ygEQYmbYHIhpuSBs7_-v6s45W0/edit):
-
+Chia wallet | Joe's suggestion. Already built: [nucle.io]
 
 ## Jan 25
 We met up and presented our respective research areas.
