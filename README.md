@@ -60,7 +60,9 @@ NFT platform | Allow people to mint NFTs on Chia. Good middle-ground for feasibi
 Music royalty distribution | The original idea. Probably not achievable in 1.5 quarters.
 (two more that I don't remember -- **Finn fill in**) | 🤷‍♂️
 
-**Meta-idea:** Two of us attended [Chia's AMA](https://www.youtube.com/watch?v=lxi8svrIylY) about their [updated business whitepaper](https://twitter.com/chia_project/status/1489034223067402240). The impression we got is that, despite being a relatively mature project, the Chia ecosystem is still at the level of accessibility you'd expect of a months-old altcoin project. Chia's audience is mostly hardcore blockchain geeks, most of whom farm Chia themselves. There is a lot of room for growth and engagement of the wider crypto community when you compare Chia's ecosystem to, say, Ethereum's. It seems like Chia wants to fund projects that make Chia more accessible and reduce the 
+**Meta-idea:** Two of us attended [Chia's AMA](https://www.youtube.com/watch?v=lxi8svrIylY) about their [updated business whitepaper](https://twitter.com/chia_project/status/1489034223067402240). The impression we got is that, despite being a relatively mature project, the Chia ecosystem is still at the level of accessibility you'd expect of a months-old altcoin project. Chia's audience is mostly hardcore blockchain geeks, most of whom farm Chia themselves. There is a lot of room for growth and engagement of the wider crypto community when you compare Chia's ecosystem to, say, Ethereum's. It seems like Chia wants to fund projects that make Chia more accessible and reduce the expertise required to start using Chia. Example: [nucle.io] is JUST a web-based Chia wallet, but it was the first Cultivation Grant recipient.
+
+It seems worthwhile to look at where Chia is compared to ETH, and maybe try to build the _next_ thing that would narrow the gap of what's available to Chia developers/users compared to ETH devs/users. I.e., we now have a [lightweight node]()
 
 ## Jan 25
 We met up and presented our respective research areas.
