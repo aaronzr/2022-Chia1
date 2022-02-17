@@ -1,3 +1,6 @@
+
+**This info has been ported to the GitHub Wiki!  See there for more.**
+
 # Chia documentation
 
 This document compiles information that we have learned about Chia and associated technologies for easy reference.
@@ -35,3 +38,4 @@ Credit cards | blah | <ul><li>Trustful</li><li>Fraud-prone</li><li>Middleman wit
 Bitcoin uses a data structure called a **blockchain** to verify groups of transactions.
 
 (image)
+
