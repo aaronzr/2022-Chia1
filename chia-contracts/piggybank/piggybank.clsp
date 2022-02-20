@@ -4,7 +4,7 @@
         my_puzzle_hash ;when a coin is spent, it is destroyed. We need this to create ourselves again.
     )
 
-    (include condition_codes.clib)
+    (include condition_codes.clib); defines opcode constants, e.g. CREATE_COIN
 
     ;unique constants to make sure this coin is unique to ourselves
     (defconstant TARGET_AMOUNT 500) ;500 mojos
