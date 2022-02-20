@@ -1,0 +1,43 @@
+(mod (
+        my_amount ;amount of money in the bank
+        new_amount ;amount to add
+        my_puzzle_hash ;when a coin is spent, it is destroyed. We need this to create ourselves again.
+    )
+
+    (include condition_codes.clib)
+
+    ;unique constants to make sure this coin is unique to ourselves
+    (defconstant TARGET_AMOUNT 500) ;500 mojos
+    (defconstant CASH_OUT_PUZZLE_HASH 0xcafef00d) ;contract to send the money to once the savings goal is reached
+
+    ;this is an inline function. Good idea to use when not doing recursion
+    ;more here: https://chialisp.com/docs/optimization/ 
+    (defun-inline recreate_self (my_amount new_amount my_puzzle_hash)
+        ;when we run a chia-lisp function, we expect a list of conditions to be returns
+        (list
+            (list CREATE_COIN my_puzzle_hash new_amount) ;recreate ourselves
+        )
+    ) 
+
+    (defun-inline cash_out(recreate_self my_amount new_amount my_puzzle_hash)
+        (list
+            (list CREATE_COIN CASH_OUT_PUZZLE_HASH new_amount) ;create coin to the new puzzleHash with the new amount
+            (list CREATE_COIN my_puzzle_hash 0) ;recreate new piggybank with amount of 0
+        )
+    )
+                    
+
+    ;main 
+
+    ;check new_amount > my_amount
+    (if (> new_amount my_amount)
+        ;continue
+        (if (>= new_amount TARGET_AMOUNT)
+            ;cash out logic 
+            (cash_out CASH_OUT_PUZZLE_HASH my_amount new_amount my_puzzle_hash)
+            ;else, recreate_self 
+            (recreate_self my_amount new_amount my_puzzle_hash)
+        )
+    (x) ;raise 
+    )
+)
