@@ -16,6 +16,11 @@
         ;when we run a chia-lisp function, we expect a list of conditions to be returns
         (list
             (list CREATE_COIN my_puzzle_hash new_amount) ;recreate ourselves
+
+            ;security
+            (list ASSERT_MY_AMOUNT my_amount)
+            (list ASSERT_MY_PUZZLEHASH my_puzzle_hash)
+            (list CREATE_COIN_ANNOUNCEMENT new_amount)
         )
     ) 
 
@@ -23,10 +28,19 @@
         (list
             (list CREATE_COIN CASH_OUT_PUZZLE_HASH new_amount) ;create coin to the new puzzleHash with the new amount
             (list CREATE_COIN my_puzzle_hash 0) ;recreate new piggybank with amount of 0
+            
+            ;security
+            (list ASSERT_MY_AMOUNT my_amount)
+            (list ASSERT_MY_PUZZLEHASH my_puzzle_hash)
+            (list CREATE_COIN_ANNOUNCEMENT new_amount)  ;this allows us to assert this announcement from other spends. 
+                                                        ;what this means is when someone adds chia to this piggybank smart coin
+                                                        ;they another coin (the funding coin) is reduced by the same amount.
+                                                        ;This line allows us to assert that new_amount == 400 (e.g.) in the funding coin
+                                                        ;if the miner tries to change new_amount, the funding coin transaction will fail.
+                                                        ;Announcements are a way to bind together the funded / funding coins. 
         )
     )
                     
-
     ;main 
 
     ;check new_amount > my_amount
