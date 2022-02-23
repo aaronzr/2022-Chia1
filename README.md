@@ -1,5 +1,5 @@
 # Chia
-<img src="https://img.shields.io/badge/%F0%9F%8E%89%20CS%20210%20Best%20Of-VC:%20Ambition%20and%20Execution%20Balance-purple?colorA=ffd700"/>
+<img src="https://img.shields.io/badge/%F0%9F%8E%89%20CS%20210%20Best%20Of-VC:%20Value%20to%20the%20Target%20Customer-purple?colorA=ffd700"/>
 
 <img src="chia-logo.svg" alt="Chia Logo"/>
 
