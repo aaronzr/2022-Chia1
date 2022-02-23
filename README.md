@@ -2,6 +2,8 @@
 
 <img src="chia-logo.svg" alt="Chia Logo"/>
 
+https://img.shields.io/badge/%F0%9F%8E%89%20CS%20210%20Best%20Of-Striking%20the%20right%20balance%20between%20ambition%20and%20ability%20to%20execute-purple?colorA=ffd700
+
  ## Project Overview
  
  We are reimagining a sustainable future of cryptocurrency and blockchain technology. We plan to build a DeFi product on top of Chia that leverages Chia's energy and time efficient consensus mechansism. 
