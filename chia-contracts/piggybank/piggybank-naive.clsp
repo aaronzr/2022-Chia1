@@ -1,0 +1,48 @@
+;make a smart coin to store donations and send it to pre-determined address when the earnings goal is achieved.
+;anyone can contribute
+;automatic recreation of itself when the earnings goal is achieved. 
+
+ (mod
+    ;parameters or "solution values" the spender of the coin passes in 
+    (
+        my_amount
+        new_amount ;this must be greater then my_amount to ensure money only flows in
+        my_puzzle_hash ;whenever a coin is spent, it is destroyed. We need this to recreate ourselves with new_amount
+     )
+
+    (include condition_codes.clib) ;dev will know to look in the include folder for us
+
+     ;make some unique constants that make this OUR piggybank. Otherwise everyone is going to be able to spend everyone else's piggybank.
+     (defconstant TARGET_AMOUNT 500)
+     (defconstant CASH_OUT_PUZZLE_HASH 0xcafef00d)
+
+    ;inline function
+    (defun-inline cash_out(CASH_OUT_PUZZLE_HASH, my_amount new_amount my_puzzle_hash)
+        (list 
+            (list CREATE_COIN CASH_OUT_PUZZLE_HASH new_amount)
+            (list CREATE_COIN my_puzzle_hash 0)
+        )
+    )
+
+
+
+    ;when we run a chia lisp program, we expect a list of "conditions" to be returned. conditions are defined as op_codes. Conditions include CREATE_COIN, AGG_SIG_UNSAFE, ASSERT_MY_AMOUNT, etc.
+    (defun-inline recreate_self(my_amount, new_amount my_puzzle_hash)
+        (list
+            (list CREATE_COIN my_puzzle_hash new_amount )
+        )
+    )
+
+
+     ;main
+     (if (> new_amount my_amount)
+        (if(> new_amount TARGET_AMOUNT) ;true 
+        ;cash out (true case)
+            (cash_out CASH_OUT_PUZZLE_HASH, my_amount new_amount my_puzzle_hash)
+        ;recreate_self (false case)
+            (recreate_self my_amount new_amount my_puzzle_hash)
+        )
+        
+        (x) ;this means "raise" ;false
+     ) 
+ )
