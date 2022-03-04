@@ -1,4 +1,5 @@
 # Chia
+<img src="https://img.shields.io/badge/%F0%9F%8E%89%20CS%20210%20Best%20Of-VC:%20Value%20to%20the%20Target%20Customer-purple?colorA=ffd700"/>
 
 <img src="chia-logo.svg" alt="Chia Logo"/>
 
@@ -46,6 +47,12 @@ Documentation on Google Drive available *** TBD *** [here](https://drive.google.
 Notion: https://www.notion.so/Team-Home-ed2babbb88504af587e482fb26b0ff1d
 
 # Team Meeting notes
+## Feb 22
+
+* Finn and Aaron: finish [Chialisp tutorial](https://www.youtube.com/playlist?list=PLe6Q9VClOrJHdPpbtLXNY7PMWkJvd_xtR), look into official [Chia blockchain Python repo](https://github.com/Chia-Network/chia-blockchain)
+* Ende: investigate IPFS CLI/Python API
+* Jen: keep designing frontend
+
 ## Feb 7
 We discussed the feedback we received from our liaison and our VC guest last week.
 We're looking into building a subset of what we pitched to the VC in order to

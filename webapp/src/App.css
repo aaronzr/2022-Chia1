@@ -1,0 +1,85 @@
+/* Set height of website to height of screen */
+
+html,
+body,
+
+.App {
+  height: 100%;
+}
+
+/* Set theme colors */
+:root{
+  --custom-green-dark:  #2C8017;
+  --custom-green-light:  #3AAC59;
+  --gradient:  linear-gradient(
+    95deg, var(--custom-green-dark) -4.93%, var(--custom-green-light) 102.75%
+  );
+  --text-dark: #212121;
+  --text-light: #747474;
+  --button-outline: rgb(44 128 23 / 50%);
+
+}
+
+/* Import Avenir fonts */
+@font-face {
+  font-family: "Avenir-Medium";
+  src: local("Avenir-Medium"),
+    url(./assets/fonts/Avenir-Medium.ttf) format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Avenir-Heavy";
+  src: local("Avenir-Heavy"),
+    url(./assets/fonts/Avenir-Heavy.ttf) format("truetype");
+  font-weight: 800;
+}
+
+/* Set typography */
+.h1 {
+  font-family: Avenir-Heavy;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 120%;
+  color: var(--text-dark);
+}
+
+.h2 {
+  font-family: Avenir-Heavy;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--text-dark);
+}
+
+.h3 {
+  font-family: Avenir-Heavy;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 120%;
+  color: var(--text-dark);
+}
+
+.h4 {
+  font-family: Avenir-Heavy;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 120%;
+  color: var(--text-dark);
+}
+
+.h5 {
+  font-family: Avenir-Heavy;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--text-dark);
+}
+
+.h6 {
+  font-family: Avenir-Heavy;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 120%;
+  color: var(--text-dark);
+}
