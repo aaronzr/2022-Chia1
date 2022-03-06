@@ -24,8 +24,6 @@
         )
     )
 
-
-
     ;when we run a chia lisp program, we expect a list of "conditions" to be returned. conditions are defined as op_codes. Conditions include CREATE_COIN, AGG_SIG_UNSAFE, ASSERT_MY_AMOUNT, etc.
     (defun-inline recreate_self(my_amount, new_amount my_puzzle_hash)
         (list

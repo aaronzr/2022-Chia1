@@ -1,0 +1,43 @@
+
+ (mod
+    (   
+        TARGET_AMOUNT ;puzzle maker makes these, not the solver.
+        CASH_OUT_PUZZLE_HASH
+        my_amount
+        new_amount 
+        my_puzzle_hash 
+     )
+
+    (include condition_codes.clib) 
+
+    ; (defconstant TARGET_AMOUNT 500)
+    ; (defconstant CASH_OUT_PUZZLE_HASH 0xcafef00d)
+
+    (defun-inline cash_out(CASH_OUT_PUZZLE_HASH, my_amount new_amount my_puzzle_hash)
+        (list 
+            (list CREATE_COIN CASH_OUT_PUZZLE_HASH new_amount)
+            (list CREATE_COIN my_puzzle_hash 0)
+            (list ASSERT_MY_AMOUNT my_amount) 
+            (list ASSERT_MY_PUZZLEHASH my_puzzle_hash) 
+            (list CREATE_COIN_ANNOUNCEMENT new_amount)
+        )
+    )
+
+    (defun-inline recreate_self(my_amount, new_amount my_puzzle_hash)
+        (list
+            (list CREATE_COIN my_puzzle_hash new_amount )
+            (list ASSERT_MY_AMOUNT my_amount) ;assert my_amount is unchanged
+            (list ASSERT_MY_PUZZLEHASH my_puzzle_hash) ;assert my_puzzle_hash is unchanged
+            (list CREATE_COIN_ANNOUNCEMENT new_amount)
+        )
+    )
+
+     (if (> new_amount my_amount)
+        (if(> new_amount TARGET_AMOUNT) 
+            (cash_out CASH_OUT_PUZZLE_HASH, my_amount new_amount my_puzzle_hash)
+            (recreate_self my_amount new_amount my_puzzle_hash)
+        )
+        (x)
+     ) 
+ )
+
