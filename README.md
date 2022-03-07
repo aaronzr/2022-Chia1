@@ -49,10 +49,15 @@ Notion: https://www.notion.so/Team-Home-ed2babbb88504af587e482fb26b0ff1d
 # Team Meeting notes
 
 ## March 6
-
+Upcoming deliverables:
+* Tues March 8 - run through presentation with Collin
+* Thurs March 10 - poster-style class presentation
+* Wed March 16 - a16z / Bram pitch
 Objectives for presentation:
 * Show GUI
 * Run NFT on testnet using cloned xch-gallery code
+
+Jam sessions:
 
 ## Feb 22
 
