@@ -47,6 +47,13 @@ Documentation on Google Drive available *** TBD *** [here](https://drive.google.
 Notion: https://www.notion.so/Team-Home-ed2babbb88504af587e482fb26b0ff1d
 
 # Team Meeting notes
+
+## March 6
+
+Objectives for presentation:
+* Show GUI
+* Run NFT on testnet using cloned xch-gallery code
+
 ## Feb 22
 
 * Finn and Aaron: finish [Chialisp tutorial](https://www.youtube.com/playlist?list=PLe6Q9VClOrJHdPpbtLXNY7PMWkJvd_xtR), look into official [Chia blockchain Python repo](https://github.com/Chia-Network/chia-blockchain)
