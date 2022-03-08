@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <title>Oval</title>
+     <script>
+  function showAlert() {
+    alert ("NFT Minted! Transaction hash: ");
+  }
+  </script>
     <style>
       form {
         /* Center the form on the page */
@@ -29,6 +34,7 @@
         display: inline-block;
         width: 90px;
         text-align: right;
+        font-family: Avenir;
       }
 
       input,
@@ -72,7 +78,11 @@
     </style>
   </head>
   <body>
-    <p>Oval</p>
+    <center>
+      <img src="navbar.png" width="100%">
+    </center>
+    <br>
+    <br>
     <form action="/form-page" method="post">
       <ul>
         <li>
@@ -99,7 +109,7 @@
           <input type="file" id="filename" name="filename" />
         </li>
         <li class="button">
-          <button type="submit">Send your message</button>
+          <button onclick="showAlert()">Mint NFT</button>
         </li>
       </ul>
     </form>
