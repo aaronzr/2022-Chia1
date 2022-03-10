@@ -1,0 +1,96 @@
+/* General button styling */
+.btn {
+  border-width: 0px !important;
+  border-radius: 12px !important;
+  padding: 9px 16px !important;
+  position: relative;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem var(--button-outline) !important;
+}
+
+.btn:hover {
+  transition: 0.5s ease;
+  filter: brightness(96%);
+}
+
+.btn:active {
+  transition: 0.5s ease;
+  filter: brightness(92%);
+}
+
+.btn > svg {
+  margin-right: 8px;
+}
+
+/* Primary button styling */
+.btn-primary {
+  background-image: var(--graident);
+  color: white;
+}
+
+/* Secondary button styling */
+.btn-secondary {
+  background-color: white !important;
+  position: relative;
+  box-sizing: border-box;
+  background-clip: padding-box;
+  border: solid 1px #f05b57 !important;
+}
+
+.btn-secondary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -1px;
+  border-radius: 13px;
+  background: var(--graident);
+}
+
+/* Gradient text */
+.btn-secondary span {
+  background-image: var(--graident);
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.btn-secondary:hover > span {
+  color: white !important;
+  background-image: none;
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: white;
+  -moz-text-fill-color: white;
+}
+
+.btn-secondary:hover > svg {
+  fill: white !important;
+}
+
+
+/* Tertiary button styling */
+.btn-tertiary {
+  background-color: white !important;
+  position: relative;
+  box-sizing: border-box;
+  background-clip: padding-box;
+  border: solid 1px #cccccc !important;
+  color: var(--text-dark) !important;
+}
+
+.btn-tertiary::before {
+  display: none;
+}
+
+.btn-tertiary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(204 204 204 / 50%) !important;
+}
