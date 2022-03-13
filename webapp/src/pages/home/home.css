@@ -1,0 +1,8 @@
+.home {
+  background-image: var(--gradient);
+  height: 100% !important;
+}
+
+.app-container {
+  height: calc(100% - 66px);
+}
