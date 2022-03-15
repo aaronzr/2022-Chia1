@@ -18,6 +18,12 @@
 Date | Thing 
 --- | --- 
 2/8 | [OKRs and KPIs](https://docs.google.com/document/d/1OHoNefildGwwCYHj2ygEQYmbYHIhpuSBs7_-v6s45W0/edit)
+
+# Running webapp
+
+* navigate into webapp directory (more detailed instructions in readme of that directory)
+* run `npm start`
+* you may need to install dependencies:
  
  # Team Members
 Member |  Email | Photo
