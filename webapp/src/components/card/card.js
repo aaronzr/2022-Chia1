@@ -6,6 +6,8 @@ import Form from "react-bootstrap/Form";
 import { Container, InputGroup, FormControl } from "react-bootstrap";
 import React, { useState } from "react";
 import { create } from "ipfs-http-client";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const client = create("https://ipfs.infura.io:5001/api/v0");
 
@@ -38,12 +40,11 @@ export function FormCard(props) {
 			const url = `https://ipfs.infura.io/ipfs/${created.path}`;
 			console.log(url);
 			setUrlArr((prev) => [...prev, url]);
+			toast.success("NFT Minted! IPFS Hash: " + url);
 		} catch (error) {
 			console.log(error.message);
 		}
 	};
-
-	const mintNFT = () => {};
 
 	return (
 		<div className="all-card">
@@ -113,18 +114,8 @@ export function FormCard(props) {
 					</InputGroup>
 					<div className="Button">
 						<PButton type="submit" onClick={handleSubmit}>Mint NFT</PButton>
+						<ToastContainer position="top-right" hideProgressBar={true} />
 					</div>
-
-					{/*<form className="form" onSubmit={handleSubmit}>
-						<input
-							type="file"
-							name="data"
-							onChange={retrieveFile}
-						/>
-						<button type="submit" className="btn">
-							Upload file
-						</button>
-					</form>*/}
 
 					<div className="display">
 						{urlArr.length !== 0 ? (
