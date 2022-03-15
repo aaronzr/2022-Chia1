@@ -21,9 +21,19 @@ Date | Thing
 
 # Running webapp
 
-* navigate into webapp directory (more detailed instructions in readme of that directory)
-* run `npm start`
-* you may need to install dependencies:
+In the webapp directory, install dependencies:
+
+### `npm install react-scripts`
+
+Then, you can run:
+
+### `npm start`
+
+This runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
  
  # Team Members
 Member |  Email | Photo
