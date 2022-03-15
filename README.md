@@ -56,7 +56,7 @@ Progress update:
 * Finn/Aaron: studied backend and Chialisp to deploy smart contracts
 
 To Do:
-* Jen: try to connect Ende's IPFS to front end code in this repo
+* Jen: try to connect Ende's IPFS to front end code in this repo, add toast when file uploaded with link or hash, add optional form fields and error checking for fields, add pages for About/Team/Q&A, look into hosting site
 * Ende: support Jen with questions about IPFS
 * Finn/Aaron: continue to work with backend/Chialisp, prepare to talk about backend architecture design for presentation
 
