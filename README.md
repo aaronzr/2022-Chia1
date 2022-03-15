@@ -52,11 +52,11 @@ Notion: https://www.notion.so/Team-Home-ed2babbb88504af587e482fb26b0ff1d
 
 Progress update:
 * Jen: created React app with working components
-* Ende: got file upload to IPFS to work and created separate repo https://github.com/endeshen99/chia1-frontend
+* Ende: got file upload to IPFS to work on separate repo https://github.com/endeshen99/chia1-frontend
 * Finn/Aaron: studied backend and Chialisp to deploy smart contracts
 
 To Do:
-* Jen: try to connect Ende's IPFS to front end code in this repo, add toast when file uploaded with link or hash, add optional form fields and error checking for fields, add pages for About/Team/Q&A, look into hosting site
+* Jen: try to connect Ende's IPFS repo to front end code in this repo, add toast when file uploaded with link or hash, add optional form fields and error checking for fields, add pages for About/Team/Q&A, look into hosting site
 * Ende: support Jen with questions about IPFS
 * Finn/Aaron: continue to work with backend/Chialisp, prepare to talk about backend architecture design for presentation
 
