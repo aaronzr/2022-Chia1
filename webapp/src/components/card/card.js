@@ -16,12 +16,14 @@ export function FormCard(props) {
 	const mintNFT = () => {}
 
 	return (
+		<div className="all-card">
 		<Card>
 			<Card.Header>Mint your NFT</Card.Header>
+			<div className="card-contents">
 			<label className="p3" htmlFor="title">
 				Title
 			</label>
-			<InputGroup className="">
+			<InputGroup className="form-contents">
 				<FormControl
 					id="title"
 					aria-label="Title"
@@ -34,7 +36,7 @@ export function FormCard(props) {
 			<label className="p3" htmlFor="description">
 				Description
 			</label>
-			<InputGroup className="">
+			<InputGroup className="form-contents">
 				<FormControl
 					id="description"
 					aria-label="Description"
@@ -47,7 +49,7 @@ export function FormCard(props) {
 			<label className="p3" htmlFor="quantity">
 				Quantity
 			</label>
-			<InputGroup className="">
+			<InputGroup className="form-contents">
 				<FormControl
 					id="quantity"
 					aria-label="Quantity"
@@ -60,7 +62,7 @@ export function FormCard(props) {
 			<label className="p3" htmlFor="wallet-address">
 				Wallet Address
 			</label>
-			<InputGroup className="">
+			<InputGroup className="form-contents">
 				<FormControl
 					id="address"
 					aria-label="Wallet Address"
@@ -70,7 +72,10 @@ export function FormCard(props) {
 					type="text"
 				/>
 			</InputGroup>
-			<InputGroup className="">
+			<label className="p3" htmlFor="upload-nft">
+				Upload NFT
+			</label>
+			<InputGroup className="form-contents">
 				<FormControl
 					id="file"
 					type="file"
@@ -79,6 +84,8 @@ export function FormCard(props) {
 			<div className="Button">
           <PButton onClick={mintNFT}>Mint NFT</PButton>
         </div>
+        </div>
 		</Card>
+		</div>
 	);
 }

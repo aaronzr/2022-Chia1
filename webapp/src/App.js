@@ -4,6 +4,7 @@ import "./App.css";
 // import { auth } from "./services/firebase";
 // import { PrivateRoute, PublicRoute } from "./components/route/route";
 import logo from "./assets/logo/logo.png";
+import logo2 from "./logo.png";
 
 // Pages
 import Home from "./pages/home/home";
@@ -12,9 +13,12 @@ import Home from "./pages/home/home";
 // import Store from "./context/store";
 
 function App() {
-
-  
-    <Home />
+  return (
+    <div className="App">
+      <img src={logo2} className="App-logo" alt="logo" />
+      <Home />
+    </div>
+  );
 }
 
 export default App;

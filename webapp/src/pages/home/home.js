@@ -12,7 +12,7 @@ function Home(props) {
 
   return (
     <div className="app-container">
-        <Topbar />
+        {/*<Topbar />*/}
         <div className="App home page-content">
           <Container>
             <FormCard />

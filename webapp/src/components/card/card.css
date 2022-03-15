@@ -1,9 +1,20 @@
 .all-card {
   border-radius: 12px !important;
-  padding: 24px;
-  width: 100%;
-  background: white;
-  position: relative;
+  position: absolute;
   margin-bottom: 24px;
+  width: 60vw;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
+.card-contents {
+  padding: 24px;
+}
+
+.form-contents {
+  margin-bottom: 24px;
+}

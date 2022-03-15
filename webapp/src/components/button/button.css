@@ -26,7 +26,7 @@
 
 /* Primary button styling */
 .btn-primary {
-  background-image: var(--graident);
+  background-image: var(--gradient);
   color: white;
 }
 
