@@ -41,7 +41,7 @@ Member |  Email | Photo
 Aaron Reed | aaron73@stanford.edu| <img src="res/aaron.JPEG" alt="Aaron Reed" height="200" />
 Ende Shen |endeshen@stanford.edu | <img src="res/ende.jpg" alt="Ende Shen" height="200" />
 Finn Dayton | finniusd@stanford.edu | <img src="res/finn.jpg" alt="Finn Dayton" height="200"/>
-Jennifer He |jenhe@stanford.edu | <img src="res/jennifer.jpg" alt="Jennifer He" height="200"/>
+Jennifer He |jenhe@stanford.edu | <img src="res/jen.jpg" alt="Jennifer He" height="200"/>
 Liaison: Joe Latone | jlatone@us.ibm.com |
 
 # Team Skills Matrix
