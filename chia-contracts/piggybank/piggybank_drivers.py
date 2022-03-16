@@ -11,12 +11,14 @@ from cdv.util.load_clvm import load_clvm
 
 PIGGYBANK_MOD = load_clvm("piggybank-currying.clsp", "piggybank")
 
-#Create a piggybank
+#Create a piggybank (create NFT with initial owner and IPFS hash)
 def create_piggybank_puzzle(amount, cash_out_puzhash):
     return PIGGYBANK_MOD.curry(amount, cash_out_puzhash) #return curried version of the puzzle, returned as a "Program" object.
 
 #generate a solution to contribute to a piggybank.
+# pb_coin: the coin to contribute to 
 def solution_for_piggybank(pb_coin, contribution_amount):
+    #Program is how we do chialisp program code in Python
     return Program.to([pb_coin.amount, (pb_coin.amount + contribution_amount), pb_coin.puzzle_hash])
 
 #Return the condition to assert the announcement. Remember, the annoucement is the "CREATE_COIN_ANNOUNCEMENT" condition in the contract.

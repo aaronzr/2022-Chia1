@@ -1,0 +1,28 @@
+
+ (mod
+    (   
+        IPFS_HASH 
+        my_puzzle_hash
+        new_owner_address
+     )
+
+    (include condition_codes.clib) 
+
+    ; (defconstant TARGET_AMOUNT 500)
+    ; (defconstant CASH_OUT_PUZZLE_HASH 0xcafef00d)
+
+    (defun-inline transfer_ownership(my_amount, new_amount my_puzzle_hash)
+        (list
+            (list CREATE_COIN my_puzzle_hash new_owner_address )
+            (list ASSERT_MY_AMOUNT my_amount) ;assert my_amount is unchanged
+            (list ASSERT_MY_PUZZLEHASH my_puzzle_hash) ;assert my_puzzle_hash is unchanged
+            (list CREATE_COIN_ANNOUNCEMENT new_amount)
+        )
+    )
+
+     (if (verify my_puzzle_hash)
+        (transfer_ownership IPFS_HASH, my_puzzle_hash new_owner_address)
+        (x)
+     ) 
+ )
+
