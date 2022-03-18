@@ -142,6 +142,20 @@ Jennifer:
 --tether - [https://www.youtube.com/watch?v=-whuXHSL1Pg](https://www.youtube.com/watch?v=-whuXHSL1Pg)
 --A MVP codebase of maybe smart contracts (minimal working example) built on top of ChiaLisp (incorporating Chia API)
 
+
+## March 17 Team Update
+### We met with A16z, Dan Boneh and Bram Cohen to present our MVP
+We showed the frontend, and ability to actually upload an image that goes on IPFS. We talked about our structure of the backend and how we were approaching implementing an NFT in Chialisp. 
+We received important feedback from Bram and Dan. Here are the main points: 
+1. Store the hash of the image / content on chain, rather than a link to IPFS. We agreed. This makes the NFT more "real" for users. There can still be an IPFS link for rendering purposes. 
+2. Chia is releasing its own NFT protocol we could use, but this likely will not be out in time to use for the next quarter. 
+3. Chiapower.org has lots of useful information about the Chia blockchain energy usage. 
+4. There are three main painpoints with ERC721 NFTs:
+ a. Rentability 
+ b. Royalties 
+ c. Non-transferrability
+ We should consider these when designing our contract. 
+
 ### Reading list
 **Chia grant program:** [https://www.chia.net/2021/08/18/chia-cultivation-grant-program.html#:~:text=TL%3BDR Chia is launching,the Chia ecosystem at large.&text=To that end%2C in an,have created this grant program](https://www.chia.net/2021/08/18/chia-cultivation-grant-program.html#:~:text=TL%3BDR%20Chia%20is%20launching,the%20Chia%20ecosystem%20at%20large.&text=To%20that%20end%2C%20in%20an,have%20created%20this%20grant%20program).
 
