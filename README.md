@@ -145,9 +145,9 @@ Jennifer:
 
 ## March 17 Team Update
 ### We met with A16z, Dan Boneh and Bram Cohen to present our MVP
-We showed the frontend, and ability to actually upload an image that goes on IPFS. We talked about our structure of the backend and how we were approaching implementing an NFT in Chialisp. 
+We showed the frontend and demonstrated the ability to actually upload an image that goes on IPFS. We talked about our structure of the backend and how we were approaching implementing an NFT in Chialisp. 
 We received important feedback from Bram and Dan. Here are the main points: 
-1. Store the hash of the image / content on chain, rather than a link to IPFS. We agreed. This makes the NFT more "real" for users. There can still be an IPFS link for rendering purposes. 
+1. Store the hash of the image on chain rather than just a link to IPFS. We agreed. This makes the NFT more "real" for users. There can still be an IPFS link for rendering purposes. 
 2. Chia is releasing its own NFT protocol we could use, but this likely will not be out in time to use for the next quarter. 
 3. Chiapower.org has lots of useful information about the Chia blockchain energy usage. 
 4. There are three main painpoints with ERC721 NFTs:
