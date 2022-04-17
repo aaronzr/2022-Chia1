@@ -17,7 +17,7 @@
 Date | Thing 
 --- | --- 
 2/8 | [OKRs and KPIs](https://docs.google.com/document/d/1OHoNefildGwwCYHj2ygEQYmbYHIhpuSBs7_-v6s45W0/edit)
-4/14 | [Contract of Deliverables](https://docs.google.com/document/d/1Bm-XJF0GATEy0_h27i1S7p32KZQpC-hv/edit?usp=sharing&ouid=116387600087459715846&rtpof=true&sd=true)
+4/14 | [Contract of Deliverables](https://docs.google.com/document/d/1BDSlOO23SWEQrRTsTWvVHZerDEPfmpc4/edit)
 
 # Running webapp
 
