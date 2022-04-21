@@ -18,6 +18,7 @@ Date | Thing
 --- | --- 
 2/8 | [OKRs and KPIs](https://docs.google.com/document/d/1OHoNefildGwwCYHj2ygEQYmbYHIhpuSBs7_-v6s45W0/edit)
 4/14 | [Contract of Deliverables](https://docs.google.com/document/d/1BDSlOO23SWEQrRTsTWvVHZerDEPfmpc4/edit)
+4/21 | [Real Customer Profile](https://docs.google.com/presentation/d/1YNMCroEHl_P41jnpirjgobTaxy9wvSrRUL-hrGBOmY8/edit#slide=id.g1254947738c_0_6)
 
 # Running webapp
 
