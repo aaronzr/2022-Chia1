@@ -1,6 +1,8 @@
 ## SSHing into AWS instance
  
 1. Download the `.pem` file with your name on it.
+2. Your username and password are both your first name in lowercase.  You can change your password when you sign on for the first time like this:
+### `blah`
 
 In the webapp directory, install dependencies:
 
