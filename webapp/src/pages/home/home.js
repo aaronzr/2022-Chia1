@@ -13,6 +13,12 @@ function Home(props) {
   return (
     <div className="app-container">
         <Topbar />
+        <div className="">
+        NFT Minter
+        </div>
+        <div className="">
+        Mint NFTs on Chia at the speed of light!
+        </div>
         <div className="App home page-content">
           <Container>
             <FormCard />
