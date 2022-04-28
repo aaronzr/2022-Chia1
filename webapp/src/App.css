@@ -21,9 +21,9 @@ body,
 :root{
   --custom-green-dark:  #2C8017;
   --custom-green-light:  #3AAC59;
-  --gradient:  linear-gradient(
+  /* --gradient:  linear-gradient(
     95deg, var(--custom-green-dark) -4.93%, var(--custom-green-light) 102.75%
-  );
+  ); */
   --text-dark: #212121;
   --text-light: #747474;
   --button-outline: rgb(44 128 23 / 50%);

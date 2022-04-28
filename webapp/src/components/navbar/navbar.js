@@ -15,7 +15,7 @@ export function Topbar() {
     <Navbar className="navbar">
       <Navbar.Brand>
         {/*<Link to="/home">*/}
-          <img src={logo} alt="Oval logo" className="navbar-logo" />
+          <img src={logo} alt="Oval logo" className="navbar-logo" style={{marginLeft: '25px'}}/>
         {/*</Link>*/}
       </Navbar.Brand>
       <Nav>

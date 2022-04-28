@@ -13,18 +13,23 @@ function Home(props) {
   return (
     <div className="app-container">
         <Topbar />
-        <div className="">
-        NFT Minter
+        <div className=""
+              style={{
+              backgroundColor: 'green',
+              alignSelf: 'stretch',
+              height: '200px'
+              }}>
+        
+                      <p class="text-white" style={{fontSize: 30, marginLeft: '25px'}}>NFT Minter</p>
+                      <p class="text-white" style={{fontSize: 15, marginLeft: '25px'}}>Mint NFTs on Chia at the speed of light!</p>
         </div>
-        <div className="">
-        Mint NFTs on Chia at the speed of light!
-        </div>
-        <div className="App home page-content">
-          <Container>
-            <FormCard />
-          </Container>
-        </div>
-      </div>
+        
+          <div className="App home page-content">
+            <Container>
+              <FormCard />
+            </Container>
+          </div>
+    </div>
   );
 }
 
