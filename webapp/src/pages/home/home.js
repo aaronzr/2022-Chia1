@@ -24,11 +24,21 @@ function Home(props) {
                       <p class="text-white" style={{fontSize: 15, marginLeft: '25px'}}>Mint NFTs on Chia at the speed of light!</p>
         </div>
         
+        {true ? 
           <div className="App home page-content">
             <Container>
               <FormCard />
             </Container>
           </div>
+          :
+          <div className="App home page-content">
+            <Container>
+              {/* <FormCard /> */}
+              Hi
+            </Container>
+          </div>
+        }
+
     </div>
   );
 }
