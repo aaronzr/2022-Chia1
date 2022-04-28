@@ -5,7 +5,8 @@ body,
 
 .App {
   height: 100%;
-  /*background-image: var(--gradient);*/
+  background-image: var(--gradient);
+  /*background-color: #000000;*/
 }
 
 .App-logo {
@@ -26,6 +27,7 @@ body,
   --text-dark: #212121;
   --text-light: #747474;
   --button-outline: rgb(44 128 23 / 50%);
+  --main-padding: calc(50% - var(--content-width) / 2); /* General padding */
 
 }
 
