@@ -5,7 +5,8 @@ import logo from "../../assets/logo/logo.png";
 // import { auth, db } from "../../services/firebase";
 // import { Context } from "../../context/store";
 import { InputGroup, FormControl } from "react-bootstrap";
-import { FormCard } from "../../components/card/card";
+import { FinnCard } from "../../components/card/mint_result.js";
+import {FormCard} from "../../components/card/card.js"
 import { Topbar } from "../../components/navbar/navbar";
 
 function Home(props) {
@@ -15,7 +16,7 @@ function Home(props) {
         <Topbar />
         <div className="App home page-content">
           <Container>
-            <FormCard />
+            <FinnCard />
           </Container>
         </div>
       </div>
