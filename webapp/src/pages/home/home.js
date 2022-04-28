@@ -5,7 +5,8 @@ import logo from "../../assets/logo/logo.png";
 // import { auth, db } from "../../services/firebase";
 // import { Context } from "../../context/store";
 import { InputGroup, FormControl } from "react-bootstrap";
-import { FormCard } from "../../components/card/card";
+import { FinnCard } from "../../components/card/mint_result.js";
+import {FormCard} from "../../components/card/card.js"
 import { Topbar } from "../../components/navbar/navbar";
 
 function Home(props) {
@@ -18,10 +19,14 @@ function Home(props) {
               backgroundColor: 'green',
               alignSelf: 'stretch',
               height: '200px'
-              }}>
+              }}/>
         
                       <p class="text-white" style={{fontSize: 30, marginLeft: '25px'}}>NFT Minter</p>
                       <p class="text-white" style={{fontSize: 15, marginLeft: '25px'}}>Mint NFTs on Chia at the speed of light!</p>
+        <div className="App home page-content">
+          <Container>
+            <FinnCard />
+          </Container>
         </div>
         
         {true ? 
