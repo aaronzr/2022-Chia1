@@ -16,19 +16,20 @@ const client = create("https://ipfs.infura.io:5001/api/v0");
 global.Buffer = global.Buffer || require("buffer").Buffer;
 
 export function FinnCard(props) {
-	const [imgPath, setImgPath] = useState("");
-    const [transaction_hash, setTransactionHash] = useState("0x4857230498572093845")
-    const [wallet_address, setWalletAddress] = useState('0x909203940390')
+	// const [imgPath, setImgPath] = useState("");
+    // const [transaction_hash, setTransactionHash] = useState("0x4857230498572093845")
+    // const [wallet_address, setWalletAddress] = useState('0x909203940390')
 
     
 	return (
 		<div className="all-card">
 			<Card>
 				<div className="card-contents">
-                    <b className = "address"> {wallet_address}</b>
-                    <img className = "image" src={image}/>
+                    <b className = "address"> {props.wallet_address}</b>
+                    <img className = "image" src={props.ipfs_url}/>
                     <img className = "background" src={background} alt = "background"/> 
-                    <div className = "message">Your NFT has been successfully minted and added to the Chia blockchain. Transaction hash: {transaction_hash}</div>
+                    <div className = "message">Your NFT has been successfully minted and added to the Chia blockchain. Transaction hash: {props.transaction_hash} \n view the image here: {props.ipfs_url}</div>
+					<button className = "xOut" onClick={() => props.setHomeView(true)}>x</button>
 				</div>
 			</Card>
 		 </div>

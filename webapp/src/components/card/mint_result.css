@@ -34,10 +34,12 @@
   }
 
   .message {
-      position: absolute;
-      top: 40px;
-      left: 480px;
-      width: 300px;
+      /* position: absolute; */
+      top: 0px;
+      right: 100%;
+      /* width: 300px; */
+      object-fit: cover;
+
   }
 
   .image {
@@ -45,5 +47,11 @@
       top: 130px;
       left: 80px;
       height: 40%;
+  }
+
+  .xOut {
+    position: absolute;
+    top: 0px;
+    left: 0px
   }
 

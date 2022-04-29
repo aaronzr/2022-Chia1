@@ -10,6 +10,8 @@ import {FormCard} from "../../components/card/card.js"
 import { Topbar } from "../../components/navbar/navbar";
 
 function Home(props) {
+  const [home, setHome] = useState(true);
+
 
   return (
     <div className="app-container">
@@ -23,26 +25,20 @@ function Home(props) {
         
                       <p class="text-white" style={{fontSize: 30, marginLeft: '25px'}}>NFT Minter</p>
                       <p class="text-white" style={{fontSize: 15, marginLeft: '25px'}}>Mint NFTs on Chia at the speed of light!</p>
-        <div className="App home page-content">
-          <Container>
-            <FinnCard />
-          </Container>
-        </div>
         
-        {true ? 
+        
           <div className="App home page-content">
             <Container>
-              <FormCard />
+              <FormCard setHome = {setHome}/>
             </Container>
           </div>
-          :
-          <div className="App home page-content">
+          
+          {/* <div className="App home page-content">
             <Container>
-              {/* <FormCard /> */}
-              Hi
+              <FinnCard setHome = {setHome} transaction_hash = {hash} ipfs_url = {ipfs_url} image_path = {image_path} wallet_address = {wallet_address}/>
             </Container>
-          </div>
-        }
+          </div> */}
+        
 
     </div>
   );
