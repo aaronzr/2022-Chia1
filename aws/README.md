@@ -1,8 +1,8 @@
 ## SSHing into AWS instance
  
-1. Download the `.pem` file with your name on it.  This is a certificate which generates your public key.
+1. `git pull` from your local repo if you are not up-to-date.
 
-2. **From the directory containing your certificate,** run: `ssh -i <username>.pem <username>@ec2-44-202-213-142.compute-1.amazonaws.com`. Your password is currently your username, but feel free to change it.
+2. From this directory in your local repo, run: `ssh -i <username>.pem <username>@ec2-44-202-213-142.compute-1.amazonaws.com`. Your password is currently your username, but feel free to change it.
 
 3. Inside the instance, confirm that you have `sudo` priveleges: `sudo whoami`
 
