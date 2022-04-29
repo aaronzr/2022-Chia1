@@ -11,4 +11,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
 
 ## Updates
 
-4/29: installed Chia blockchain on AWS instance following the "Ubuntu/Debian / Install using the repository" section of this: https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL#install-from-source.  I only installed the CLI version.
+### 4/29
+* Installed Chia blockchain on AWS instance following the "Ubuntu/Debian / Install using the repository" section of this: https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL#install-from-source.  I only installed the CLI version, not the GUI.
+* Installed Docker Engine per https://docs.docker.com/engine/install/ubuntu/
+* Installed official Chia docker container per https://github.com/Chia-Network/chia-docker/pkgs/container/chia
