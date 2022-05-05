@@ -1,13 +1,16 @@
 ## SSHing into AWS instance
  
 1. `git pull` from your local repo if you are not up-to-date.
-2. From _this directory_ in your local repo, run: `ssh -i ubuntu.pem ubuntu@ec2-44-202-213-142.compute-1.amazonaws.com`. **This only works from the directory that contains `ubuntu.pem`.**
+2. From _this directory_ (`2022-Chia1/aws/`) in your local repo, run: `ssh -i ubuntu.pem ubuntu@ec2-44-202-213-142.compute-1.amazonaws.com`. **This only works from the directory that contains `ubuntu.pem`.**
 3. Inside the instance, confirm that you have `sudo` priveleges: `sudo whoami`
 
 Official AWS docs:
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
 
 ## Updates
+
+### 5/5
+How to configure Chia node to use testnet rather than mainnet: https://github.com/Chia-Network/chia-blockchain/wiki/How-to-Connect-to-the-Testnet
 
 ### 4/30
 * Added a `cron` job, shell script `sync_monitor.sh`, and log file `progress.log` to monitor blockchain sync progress.
