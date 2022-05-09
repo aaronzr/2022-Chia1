@@ -44,9 +44,11 @@
 
   .image {
       position:absolute;
-      top: 130px;
+      top: 150px;
       left: 80px;
-      height: 40%;
+      /* height: 40%; */
+      max-width: 30%;
+      /* max-height: 40%; */
   }
 
   .xOut {

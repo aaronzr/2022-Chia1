@@ -88,7 +88,7 @@ export function FormCard(props) {
 							rows={3}
 						/>
 					</InputGroup>
-					<label className="p3" htmlFor="quantity">
+					{/* <label className="p3" htmlFor="quantity">
 						Quantity
 					</label>
 					<InputGroup className="form-contents">
@@ -100,7 +100,7 @@ export function FormCard(props) {
 							onChange={(e) => setQuantity(e.target.value)}
 							type="number"
 						/>
-					</InputGroup>
+					</InputGroup> */}
 					<label className="p3" htmlFor="wallet-address">
 						Wallet Address
 					</label>
@@ -126,18 +126,18 @@ export function FormCard(props) {
 						<PButton type="submit" onClick={handleSubmit}>Mint NFT</PButton>
 						<ToastContainer position="top-right" hideProgressBar={true} />
 					</div>
-
+{/* 
 					<div className="display">
 						{ipfs_url.length !== 0 ? (
 							<img src={ipfs_url} alt="nfts" key={ipfs_url} width="40%" height="40%" />
 						) : (
 							<div />
 						)}
-					</div>
+					</div> */}
 				</div>
 			</Card> 
 			:
-			<FinnCard setHomeView = {setHomeView} transaction_hash = {hash} ipfs_url = {ipfs_url} wallet_address = {address}/>
+			<FinnCard setHomeView = {setHomeView} setTitle = {setTitle} setDescription = {setDescription} setAddress = {setAddress} transaction_hash = {hash} ipfs_url = {ipfs_url} wallet_address = {address}/>
 
 		}
 		</div>

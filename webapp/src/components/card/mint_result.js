@@ -29,7 +29,12 @@ export function FinnCard(props) {
                     <img className = "image" src={props.ipfs_url}/>
                     <img className = "background" src={background} alt = "background"/> 
                     <div className = "message">Your NFT has been successfully minted and added to the Chia blockchain. Transaction hash: {props.transaction_hash} \n view the image here: {props.ipfs_url}</div>
-					<button className = "xOut" onClick={() => props.setHomeView(true)}>x</button>
+					<button className = "xOut" onClick={() => {
+						props.setHomeView(true);
+						props.setTitle("");
+						props.setDescription("");
+						props.setAddress("");
+					}}>x</button>
 				</div>
 			</Card>
 		 </div>
