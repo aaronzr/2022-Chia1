@@ -9,6 +9,9 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
 
 ## Updates
 
+### 5/10
+https://www.reddit.com/r/aws/comments/qocgm4/how_to_send_post_http_request_to_aws_ec2_instance/hjotza9/
+
 ### 5/5
 How to configure Chia node to use testnet rather than mainnet: https://github.com/Chia-Network/chia-blockchain/wiki/How-to-Connect-to-the-Testnet
 
