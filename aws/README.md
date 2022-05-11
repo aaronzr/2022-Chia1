@@ -9,6 +9,12 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
 
 ## Updates
 
+### 5/11
+#### TODO:
+* Expand the EC2 storage from 30 GB (included in free tier) to 150 GB. This is necessary because the fully-synced Chia blockchain is 120 GB. We are now paying $X per GB per month out of the AWS credits Colin gave us. 
+  * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html
+* Set up Flask server on instance that can respond to `GET` and `POST` requests from a browser.
+
 ### 5/10
 https://www.reddit.com/r/aws/comments/qocgm4/how_to_send_post_http_request_to_aws_ec2_instance/hjotza9/
 
