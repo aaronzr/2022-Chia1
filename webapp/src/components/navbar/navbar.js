@@ -2,7 +2,8 @@ import "./navbar.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import logo from "../../assets/logo/logo.png";
-import { Link } from "react-router-dom";
+import Button from 'react-bootstrap/Button'
+// import { Link } from "react-router-dom";
 
 /**
  * Topbar component
@@ -13,19 +14,31 @@ export function Topbar() {
   return (
     <Navbar className="navbar">
       <Navbar.Brand>
-        <Link to="/home">
-          <img src={logo} alt="Oval logo" className="navbar-logo" />
-        </Link>
+        {/*<Link to="/home">*/}
+          <img src={logo} alt="Oval logo" className="navbar-logo" style={{marginLeft: '25px'}}/>
+        {/*</Link>*/}
       </Navbar.Brand>
       <Nav>
-        <Nav.Link className="h6" as={Link} to="/account">
+        <Button
+          className="mb-2"
+          id="toggle-check"
+          type="button"
+          variant="outline-dark"
+        >
           Account
-        </Nav.Link>
+        </Button>
       </Nav>
       <Nav>
-        <Nav.Link className="h6" as={Link} to="/wallet">
+
+        <Button
+          className="mb-2"
+          id="toggle-check"
+          type="button"
+          variant="outline-success"
+        >
           Connect Wallet
-        </Nav.Link>
+        </Button>
+
       </Nav>
     </Navbar>
   );

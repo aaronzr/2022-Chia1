@@ -7,7 +7,7 @@ import { Container, InputGroup, FormControl } from "react-bootstrap";
 import React, { useState } from "react";
 import { create } from "ipfs-http-client";
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { FinnCard } from "./mint_result";
 
 const client = create("https://ipfs.infura.io:5001/api/v0");
 
@@ -19,8 +19,15 @@ export function FormCard(props) {
 	const [quantity, setQuantity] = useState(0);
 	const [address, setAddress] = useState("");
 
-	const [file, setFile] = useState(null);
-	const [urlArr, setUrlArr] = useState([]);
+	const [file, setFile] = useState(null); //file info for latest image
+	const [ipfs_url, setIPFS] = useState([]); //array of ipfs image urls
+
+	const[homeView, setHomeView] = useState(true);
+
+	const [image_path, setPath] = useState("./ipfs image.png")
+	// const [ipfs_url, setIPFS] = useState("https://ipfs.infura.io:dummyURL")
+	
+	const [hash, setHash] = useState("dummy-hash") //will come from backend eventually
 
 	const retrieveFile = (e) => {
 		const data = e.target.files[0];
@@ -34,13 +41,15 @@ export function FormCard(props) {
 	};
 
 	const handleSubmit = async (e) => {
+		// console.log(`about to submit nft form. props = ${props}, props.setHome = ${props.setHome}.`)
 		e.preventDefault();
 		try {
 			const created = await client.add(file);
 			const url = `https://ipfs.infura.io/ipfs/${created.path}`;
 			console.log(url);
-			setUrlArr((prev) => [...prev, url]);
-			toast.success("NFT Minted! IPFS Hash: " + url);
+			setIPFS(url);
+			toast.success("NFT Minted!");
+			setHomeView(false)
 		} catch (error) {
 			console.log(error.message);
 		}
@@ -48,6 +57,7 @@ export function FormCard(props) {
 
 	return (
 		<div className="all-card">
+		{homeView ? 
 			<Card>
 				<Card.Header>Mint your NFT</Card.Header>
 				<div className="card-contents">
@@ -78,7 +88,7 @@ export function FormCard(props) {
 							rows={3}
 						/>
 					</InputGroup>
-					<label className="p3" htmlFor="quantity">
+					{/* <label className="p3" htmlFor="quantity">
 						Quantity
 					</label>
 					<InputGroup className="form-contents">
@@ -90,7 +100,7 @@ export function FormCard(props) {
 							onChange={(e) => setQuantity(e.target.value)}
 							type="number"
 						/>
-					</InputGroup>
+					</InputGroup> */}
 					<label className="p3" htmlFor="wallet-address">
 						Wallet Address
 					</label>
@@ -116,18 +126,20 @@ export function FormCard(props) {
 						<PButton type="submit" onClick={handleSubmit}>Mint NFT</PButton>
 						<ToastContainer position="top-right" hideProgressBar={true} />
 					</div>
-
+{/* 
 					<div className="display">
-						{urlArr.length !== 0 ? (
-							urlArr.map((el) => (
-								<img src={el} alt="nfts" key={el} width="40%" height="40%" />
-							))
+						{ipfs_url.length !== 0 ? (
+							<img src={ipfs_url} alt="nfts" key={ipfs_url} width="40%" height="40%" />
 						) : (
 							<div />
 						)}
-					</div>
+					</div> */}
 				</div>
-			</Card>
+			</Card> 
+			:
+			<FinnCard setHomeView = {setHomeView} setTitle = {setTitle} setDescription = {setDescription} setAddress = {setAddress} transaction_hash = {hash} ipfs_url = {ipfs_url} wallet_address = {address}/>
+
+		}
 		</div>
 	);
 }
