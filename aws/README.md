@@ -16,13 +16,14 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
   * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html
 * Set up Flask server on instance that can respond to `GET` and `POST` requests from a browser.
   * Tutorial I used: https://flask.palletsprojects.com/en/2.1.x/quickstart/ 
-SSL certificate on AWS instance with nginx:
+#### TODO:
+Get SSL certificate on AWS instance with nginx:
   * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-amazon-linux-2.html
   * https://docs.aws.amazon.com/enclaves/latest/user/nitro-enclave.html
 
-Other tutorials that I did not follow:
+<!-- Other tutorials that I did not follow:
   * https://www.twilio.com/blog/deploy-flask-python-app-aws
-  * https://medium.com/techfront/step-by-step-visual-guide-on-deploying-a-flask-application-on-aws-ec2-8e3e8b82c4f7
+  * https://medium.com/techfront/step-by-step-visual-guide-on-deploying-a-flask-application-on-aws-ec2-8e3e8b82c4f7 -->
 
 ### 5/10
 https://www.reddit.com/r/aws/comments/qocgm4/how_to_send_post_http_request_to_aws_ec2_instance/hjotza9/
