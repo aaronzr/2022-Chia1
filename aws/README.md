@@ -16,8 +16,10 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
   * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html
 * Set up Flask server on instance that can respond to `GET` and `POST` requests from a browser.
   * Tutorial I used: https://flask.palletsprojects.com/en/2.1.x/quickstart/ 
+* **Currently, we have to restart the entire instance** (`sudo reboot`) **for any changes to the Flask app** `helloworld/app.py` **to take effect.** May find a workaround for this later, but not worth it right now. Tried the following, did not work:
+  * https://linuxconfig.org/how-to-restart-nginx-on-linux
 #### TODO:
-Get SSL certificate on AWS instance with nginx:
+Get SSL certificate on AWS instance with nginx (so we have `https` instead of `http`):
   * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-amazon-linux-2.html
   * https://docs.aws.amazon.com/enclaves/latest/user/nitro-enclave.html
 
