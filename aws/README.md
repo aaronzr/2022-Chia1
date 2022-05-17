@@ -11,8 +11,11 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
 
 ### TODO:
 Get SSL certificate on AWS instance with nginx (so we have `https` instead of `http`):
-  * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-amazon-linux-2.html
-  * https://docs.aws.amazon.com/enclaves/latest/user/nitro-enclave.html
+* https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-amazon-linux-2.html
+* https://docs.aws.amazon.com/enclaves/latest/user/nitro-enclave.html
+
+Jay suggested this website
+* https://letsencrypt.org/
 
 <!-- Other tutorials that I did not follow:
   * https://www.twilio.com/blog/deploy-flask-python-app-aws
