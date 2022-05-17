@@ -23,6 +23,7 @@ Jay suggested this website
 
 
 ### 5/17
+* **Backend server is up!** http://ec2-44-202-213-142.compute-1.amazonaws.com
 * Expanded the EC2 storage from a 30 GB `gp3` instance (included in free tier) to a 150 GB `io1` instance. This is necessary because the fully-synced Chia blockchain is 120 GB. It also raises the ceiling on input/output operations per second, so we can write data to the drive faster (I think). We are now paying $0.125 per GB per month out of the AWS credits Colin gave us. 
   * https://aws.amazon.com/ebs/pricing/?nc1=h_ls
   * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/requesting-ebs-volume-modifications.html
