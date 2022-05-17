@@ -5,6 +5,8 @@
  ## Project Overview
  
  We are reimagining a sustainable future of cryptocurrency and blockchain technology. We plan to build a DeFi product on top of Chia that leverages Chia's energy and time efficient consensus mechansism. 
+ 
+ Please access the public facing version of the website at [here](https://jennhe.github.io/oval/)
 
 [Project theme](https://github.com/cs210/2022-Chia1/blob/main/ProjectTheme-Crypto-Chia.pdf)
 
