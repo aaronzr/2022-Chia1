@@ -30,7 +30,7 @@ Jay suggested this website
 * Set up Flask server on instance that can respond to `GET` and `POST` requests from a browser.
   * Tutorial I used: https://flask.palletsprojects.com/en/2.1.x/quickstart/ 
 * **Currently, we have to restart the entire instance** (`sudo reboot`) **for any changes to the Flask app** `helloworld/app.py` **to take effect.** May find a workaround for this later, but not worth it right now. Tried the following, did not work:
-  * https://linuxconfig.org/how-to-restart-nginx-on-linux
+  * ~https://linuxconfig.org/how-to-restart-nginx-on-linux~
 
 ### 5/10
 https://www.reddit.com/r/aws/comments/qocgm4/how_to_send_post_http_request_to_aws_ec2_instance/hjotza9/
