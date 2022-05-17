@@ -10,13 +10,17 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
 ## Updates
 
 ### 5/17
-* Expand the EC2 storage from a 30 GB `gp3` instance (included in free tier) to a 150 GB `io1` instance. This is necessary because the fully-synced Chia blockchain is 120 GB. It also raises the ceiling on input/output operations per second, so we can write data to the drive faster (I think). We are now paying $0.125 per GB per month out of the AWS credits Colin gave us. 
+* Expanded the EC2 storage from a 30 GB `gp3` instance (included in free tier) to a 150 GB `io1` instance. This is necessary because the fully-synced Chia blockchain is 120 GB. It also raises the ceiling on input/output operations per second, so we can write data to the drive faster (I think). We are now paying $0.125 per GB per month out of the AWS credits Colin gave us. 
   * https://aws.amazon.com/ebs/pricing/?nc1=h_ls
   * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/requesting-ebs-volume-modifications.html
   * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html
-#### TODO:
 * Set up Flask server on instance that can respond to `GET` and `POST` requests from a browser.
-  * https://flask.palletsprojects.com/en/2.1.x/quickstart/ 
+  * Tutorial I used: https://flask.palletsprojects.com/en/2.1.x/quickstart/ 
+SSL certificate on AWS instance with nginx:
+  * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-amazon-linux-2.html
+  * https://docs.aws.amazon.com/enclaves/latest/user/nitro-enclave.html
+
+Other tutorials that I did not follow:
   * https://www.twilio.com/blog/deploy-flask-python-app-aws
   * https://medium.com/techfront/step-by-step-visual-guide-on-deploying-a-flask-application-on-aws-ec2-8e3e8b82c4f7
 
