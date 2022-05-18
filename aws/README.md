@@ -29,7 +29,10 @@ Jay suggested this website
   * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/requesting-ebs-volume-modifications.html
   * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html
 * Set up Flask server on instance that can respond to `GET` and `POST` requests from a browser.
-  * Tutorial I used: https://flask.palletsprojects.com/en/2.1.x/quickstart/ 
+  * Tutorials I used: 
+  * https://flask.palletsprojects.com/en/2.1.x/quickstart/ 
+  * https://medium.com/techfront/step-by-step-visual-guide-on-deploying-a-flask-application-on-aws-ec2-8e3e8b82c4f7
+  * https://linuxconfig.org/how-to-setup-NGINX-reverse-proxy
 * **Currently, we have to restart the entire instance** (`sudo reboot`) **for any changes to the Flask app** `helloworld/app.py` **to take effect.** May find a workaround for this later, but not worth it right now. Tried the following, did not work:
   * ~https://linuxconfig.org/how-to-restart-nginx-on-linux~
 
