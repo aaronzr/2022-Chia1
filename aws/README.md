@@ -21,6 +21,8 @@ Jay suggested this website
   * https://www.twilio.com/blog/deploy-flask-python-app-aws
   * https://medium.com/techfront/step-by-step-visual-guide-on-deploying-a-flask-application-on-aws-ec2-8e3e8b82c4f7 -->
 
+### 5/20
+* Moved a nearly-complete Chia blockchain to AWS server and initiated server-side syncing
 
 ### 5/17
 * **Backend server is up!** http://ec2-44-202-213-142.compute-1.amazonaws.com
