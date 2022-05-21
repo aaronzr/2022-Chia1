@@ -23,6 +23,11 @@ Jay suggested this website
 
 ### 5/20
 * Moved a nearly-complete Chia blockchain to AWS server and initiated server-side syncing
+* Syncing failed because the 109 GB database is corrupt, most likely because my computer crashed once or twice while syncing.
+  * https://www.reddit.com/r/chia/comments/q1sklt/sqlite3databaseerror_database_disk_image_is/
+  * https://github.com/Chia-Network/chia-blockchain/issues/8694
+* Attempting to recover database using either `".dump"` or `".recover"` sqlite3 methods
+  * https://stackoverflow.com/questions/18259692/how-to-recover-a-corrupt-sqlite3-database/57872238#57872238 
 
 ### 5/17
 * **Backend server is up!** http://ec2-44-202-213-142.compute-1.amazonaws.com
