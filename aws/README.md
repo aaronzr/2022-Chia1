@@ -28,6 +28,7 @@ Jay suggested this website
   * https://github.com/Chia-Network/chia-blockchain/issues/8694
 * Attempting to recover database using either `".dump"` or `".recover"` sqlite3 methods
   * https://stackoverflow.com/questions/18259692/how-to-recover-a-corrupt-sqlite3-database/57872238#57872238 
+  * Currently running in background: `sqlite3 blockchain_v2_mainnet.sqlite ".dump" | sqlite3 new.db &`
 * Expanded volume to 500 GB because the `".dump"` operation started making a whole new copy of the blockchain alongside the old one, and it wasn't going to fit on 150 GB. Now we have plenty of room to experiment.
 
 ### 5/17
