@@ -22,6 +22,8 @@ Jay suggested this website
   * https://medium.com/techfront/step-by-step-visual-guide-on-deploying-a-flask-application-on-aws-ec2-8e3e8b82c4f7 -->
 
 ### 5/23
+* Able to send requests with Python `requests` module:
+  * https://www.geeksforgeeks.org/get-post-requests-using-python/
 * `sqlite3 blockchain_v2_mainnet.sqlite ".dump" | sqlite3 new.db &` started producing a file `new.db` that grew to 83GB over several days, then crashed on Sunday night and left me with an empty file.  
 * I inferred that the corrupt part must be somewhere past 83GB, so I truncated the file to 85GB using https://linuxconfig.org/how-to-truncate-file-on-linux. 
 * Next things to try, per https://stackoverflow.com/questions/18259692/how-to-recover-a-corrupt-sqlite3-database:
