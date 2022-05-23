@@ -21,6 +21,14 @@ Jay suggested this website
   * https://www.twilio.com/blog/deploy-flask-python-app-aws
   * https://medium.com/techfront/step-by-step-visual-guide-on-deploying-a-flask-application-on-aws-ec2-8e3e8b82c4f7 -->
 
+### 5/23
+* `sqlite3 blockchain_v2_mainnet.sqlite ".dump" | sqlite3 new.db &` started producing a file `new.db` that grew to 83GB over several days, then crashed on Sunday night and left me with an empty file.  
+* I inferred that the corrupt part must be somewhere past 83GB, so I truncated the file to 85GB using https://linuxconfig.org/how-to-truncate-file-on-linux. 
+* Next things to try, per https://stackoverflow.com/questions/18259692/how-to-recover-a-corrupt-sqlite3-database:
+  * `sqlite3 broken.db ".recover" | sqlite3 new.db` (currently running)
+  * `sqlite3 mydata.db ".dump" > db_script.sql` followed by `sqlite3 recovered.db < db_script.sql`
+* Local Chia blockchain is 49GB (started again from scratch while `".dump"` command was running on 5/20). Moved it to AWS and started syncing there in a different user's home directory (`aaron`) while other commands try to recover the larger blockchain in the `ubuntu` home directory.
+
 ### 5/20
 * Moved a nearly-complete Chia blockchain to AWS server and initiated server-side syncing
 * Syncing failed because the 109 GB database is corrupt, most likely because my computer crashed once or twice while syncing.
