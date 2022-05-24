@@ -24,6 +24,7 @@ Jay suggested this website
 ### 5/23
 * Able to send requests with Python `requests` module:
   * https://www.geeksforgeeks.org/get-post-requests-using-python/
+  * https://stackoverflow.com/questions/10313001/is-it-possible-to-make-post-request-in-flask
 * `sqlite3 blockchain_v2_mainnet.sqlite ".dump" | sqlite3 new.db &` started producing a file `new.db` that grew to 83GB over several days, then crashed on Sunday night and left me with an empty file.  
 * I inferred that the corrupt part must be somewhere past 83GB, so I truncated the file to 85GB using https://linuxconfig.org/how-to-truncate-file-on-linux. 
 * Next things to try, per https://stackoverflow.com/questions/18259692/how-to-recover-a-corrupt-sqlite3-database:
