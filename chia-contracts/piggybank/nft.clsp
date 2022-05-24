@@ -1,0 +1,24 @@
+
+ (mod
+    (   
+        CASH_OUT_PUZZLE_HASH ;puzzle maker makes these, not the solver.
+        wallet_address
+        ipfs_address 
+        my_puzzle_hash 
+     )
+
+    (include condition_codes.clib) 
+
+    ; (defconstant TARGET_AMOUNT 500)
+    ; (defconstant CASH_OUT_PUZZLE_HASH 0xcafef00d)
+
+    (defun-inline recreate_self(wallet_address, ipfs_address my_puzzle_hash)
+        (list
+            (list CREATE_COIN my_puzzle_hash wallet_address ipfs_address) ;create new for this person
+            (list ASSERT_MY_PUZZLEHASH my_puzzle_hash) ;assert my_puzzle_hash is unchanged
+        )
+    )
+
+    (recreate_self wallet_address ipfs_address my_puzzle_hash)
+ )
+
