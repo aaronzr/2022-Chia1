@@ -10,6 +10,9 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
 ## Updates
 
 ### TODO:
+Establish SSH tunnel to instance for moving large files
+Backup server regularly using snapshots or parallel server via AWS dashboard 
+
 Get SSL certificate on AWS instance with nginx (so we have `https` instead of `http`):
 * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-amazon-linux-2.html
 * https://docs.aws.amazon.com/enclaves/latest/user/nitro-enclave.html
