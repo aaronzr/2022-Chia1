@@ -11,6 +11,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
 
 ### TODO:
 Establish SSH tunnel to instance for moving large files
+
 Backup server regularly using snapshots or parallel server via AWS dashboard 
 
 Get SSL certificate on AWS instance with nginx (so we have `https` instead of `http`):
