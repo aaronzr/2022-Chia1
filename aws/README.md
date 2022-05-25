@@ -1,5 +1,3 @@
-# big heading
-
 ## SSHing into AWS instance
  
 1. `git pull` from your local repo if you are not up-to-date.
