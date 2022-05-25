@@ -10,7 +10,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
 ## Updates
 
 ### TODO:
-Establish SSH tunnel to instance for moving large files
+Establish SSH tunnel to instance for moving large files: https://medium.com/serverlessguru/what-is-a-ssh-tunnel-aws-ec2-8ebc394b8208
 
 Backup server regularly using snapshots or parallel server via AWS dashboard 
 
