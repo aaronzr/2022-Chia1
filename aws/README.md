@@ -25,6 +25,17 @@ Jay suggested this website
   * https://www.twilio.com/blog/deploy-flask-python-app-aws
   * https://medium.com/techfront/step-by-step-visual-guide-on-deploying-a-flask-application-on-aws-ec2-8e3e8b82c4f7 -->
 
+### 5/30
+* Finn and I both finished moving our respective local blockchains to the instance
+  * His is a fully-synced `v1` blockchain, mine is a 90% synced `v2`
+* Started the Chia node on my blockchain; instance crashed instantly and terminal became unresponsive. :')
+* Figured out why instance was crashing: Chia node and Nginx together exhaust the CPU resources of the node.
+  * Upgraded to `t2.medium` instance (2 CPU, 4 GB RAM), up from `t2.micro` (1 CPU, 1 GB RAM)
+    * https://aws.amazon.com/ec2/instance-types/t2/
+    * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-resize.html#change-instance-type-of-ebs-backed-instance
+  * Added alarms that notify me by email when CPU load >80% or >2 s.d. above moving average
+    * https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#alarmsV2:alarm/awsec2-i-0fc73562225da41b7-GreaterThanOrEqualToThreshold-CPUUtilization?
+
 ### 5/23
 * Able to send requests with Python `requests` module:
   * https://www.geeksforgeeks.org/get-post-requests-using-python/
