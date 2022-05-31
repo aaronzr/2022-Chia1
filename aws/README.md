@@ -1,7 +1,9 @@
 ## SSHing into AWS instance
- 
+
+***NOTE: IP address in Step 2 has changed*** due to upgrading the instance (see 5/30 entry)
+
 1. `git pull` from your local repo if you are not up-to-date.
-2. From _this directory_ (`2022-Chia1/aws/`) in your local repo, run: `ssh -i ubuntu.pem ubuntu@ec2-44-202-213-142.compute-1.amazonaws.com`. **This only works from the directory that contains `ubuntu.pem`.**
+2. From _this directory_ (`2022-Chia1/aws/`) in your local repo, run: `ssh -i ~/2022-Chia1/aws/ubuntu.pem ubuntu@ec2-35-175-109-209.compute-1.amazonaws.com`. 
 3. Inside the instance, confirm that you have `sudo` priveleges: `sudo whoami`
 
 Official AWS docs:
