@@ -38,6 +38,7 @@ Jay suggested this website
   * Added alarms that notify me by email when CPU load >80% or >2 s.d. above moving average
     * https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#alarmsV2:alarm/awsec2-i-0fc73562225da41b7-GreaterThanOrEqualToThreshold-CPUUtilization?
 * ***Instance IP address has changed*** and the name of the instance is now `ec2-35-175-109-209.compute-1.amazonaws.com`. _Update this address in all code that talks to the instance!_
+* Added some simple Python test scripts that send `GET` and `POST` requests to the server (`requests_test/` in this repo). Run these before you conclude that it's the server's fault. ;)
 
 ### 5/23
 * Able to send requests with Python `requests` module:
