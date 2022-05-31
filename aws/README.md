@@ -37,6 +37,7 @@ Jay suggested this website
     * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-resize.html#change-instance-type-of-ebs-backed-instance
   * Added alarms that notify me by email when CPU load >80% or >2 s.d. above moving average
     * https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#alarmsV2:alarm/awsec2-i-0fc73562225da41b7-GreaterThanOrEqualToThreshold-CPUUtilization?
+* ***Instance IP address has changed*** and the name of the instance is now `ec2-35-175-109-209.compute-1.amazonaws.com`. _Update this address in all code that talks to the instance!_
 
 ### 5/23
 * Able to send requests with Python `requests` module:
