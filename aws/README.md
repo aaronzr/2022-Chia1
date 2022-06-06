@@ -3,8 +3,9 @@
 ***NOTE: IP address in Step 2 has changed*** due to upgrading the instance (see 5/30 entry)
 
 1. `git pull` from your local repo if you are not up-to-date.
-2. From _this directory_ (`2022-Chia1/aws/`) in your local repo, run: `ssh -i ~/2022-Chia1/aws/ubuntu.pem ubuntu@ec2-35-175-109-209.compute-1.amazonaws.com`. 
-3. Inside the instance, confirm that you have `sudo` priveleges: `sudo whoami`
+2. Change the permissions on the certificate file: `chmod 400 ~/2022-Chia1/aws/ubuntu.pem`
+3. From _this directory_ (`2022-Chia1/aws/`) in your local repo, run: `ssh -i ~/2022-Chia1/aws/ubuntu.pem ubuntu@ec2-35-175-109-209.compute-1.amazonaws.com`. 
+4. Inside the instance, confirm that you have `sudo` priveleges: `sudo whoami`
 
 Official AWS docs:
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
