@@ -28,6 +28,11 @@ Jay suggested this website
   * https://www.twilio.com/blog/deploy-flask-python-app-aws
   * https://medium.com/techfront/step-by-step-visual-guide-on-deploying-a-flask-application-on-aws-ec2-8e3e8b82c4f7 -->
 
+### 6/8
+* I synced my entire v2 blockchain (_again_, from scratch, since it was corrupted!) and moved it to the instance via `scp`. As of around June 2, we have had a full-fledged Chia node running on AWS!
+* Server-side Chia node can successfully submit transactions to the mainnet Chia blockchain by running `python 2022-Chia1/chia-contracts/piggybank/shell_command.py <hash_value>` (Ende, Finn, and I wrote this). Here `<hash_value>` is `hash(wallet_address + ipfs_url)`, but for testing purposes, it can be any string.
+* See `requests_test/` for GET and POST request tests. The Flask app passes the dict in the body of the POST request to the above command. It can't yet send the output of the command back to the client, maybe some issue with asynchronicity, maybe I need a `waitpid()` somewhere. Still working on this.
+
 ### 5/30
 * Finn and I both finished moving our respective local blockchains to the instance
   * His is a fully-synced `v1` blockchain, mine is a 90% synced `v2`
