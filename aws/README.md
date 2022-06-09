@@ -29,7 +29,7 @@ Jay suggested this website
   * https://medium.com/techfront/step-by-step-visual-guide-on-deploying-a-flask-application-on-aws-ec2-8e3e8b82c4f7 -->
 
 ### 6/8
-* ***Added some server-side files we worked on to `server_files`*** so that the teaching team can see them in case they are unable to access the instance.
+* ***Added some server-side files we worked on to `server_files/`*** so that the teaching team can see them in case they are unable to access the instance.
 * I synced my entire v2 blockchain (_again_, from scratch, since it was corrupted!) and moved it to the instance via `scp`. As of around June 2, we have had a full-fledged Chia node running on AWS!
 * Server-side Chia node can successfully submit transactions to the mainnet Chia blockchain by running `python 2022-Chia1/chia-contracts/piggybank/shell_command.py <hash_value>` (Ende, Finn, and I wrote this). Here `<hash_value>` is `hash(wallet_address + ipfs_url)`, but for testing purposes, it can be any string.
 * See `requests_test/` for GET and POST request tests. Server responds to POST request by using the body to create a Chia smart coin, sending the transaction to the Chia mempool (to be added to the blockchain), and returning info about the transaction.
