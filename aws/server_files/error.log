@@ -1,0 +1,672 @@
+====================
+received GET request at 2022-06-08 15:48:12.013932
+====================
+received POST request at 2022-06-08 15:48:17.927307
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -1319845234882085664
+subprocess whoami: ubuntu
+
+transaction error: 
+====================
+received GET request at 2022-06-08 15:52:18.764729
+====================
+received GET request at 2022-06-08 15:53:04.714112
+====================
+received POST request at 2022-06-08 15:53:16.998840
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3999381219939786599
+subprocess whoami: ubuntu
+
+transaction output: 1234
+sp_cdv stdout: 
+sp_cdv stderr: 
+ Traceback (most recent call last):
+  File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 12, in <module>
+    sp_build = subprocess.run(fcdv clsp build {WD}/nft.clsp.split(), capture_output=True)
+  File /usr/lib/python3.8/subprocess.py, line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File /usr/lib/python3.8/subprocess.py, line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File /usr/lib/python3.8/subprocess.py, line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'cdv'
+
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:13:45.283782
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -4761703462018270513
+subprocess whoami: ubuntu
+
+transaction output: 1234
+sp_env stdout: LANG=C.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+HOME=/home/ubuntu
+LOGNAME=ubuntu
+USER=ubuntu
+SHELL=/bin/bash
+INVOCATION_ID=47adc28d851e47ba825b0ce9fa33c239
+JOURNAL_STREAM=8:23178
+SERVER_SOFTWARE=gunicorn/20.1.0
+
+sp_env stderr: 
+sp_cdv stdout: 
+sp_cdv stderr: 
+ Traceback (most recent call last):
+  File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 17, in <module>
+    sp_build = subprocess.run(fcdv clsp build {WD}/nft.clsp.split(), capture_output=True)
+  File /usr/lib/python3.8/subprocess.py, line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File /usr/lib/python3.8/subprocess.py, line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File /usr/lib/python3.8/subprocess.py, line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'cdv'
+
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:21:14.954206
+====================
+received POST request at 2022-06-08 16:23:54.116081
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -1327840255392503141
+subprocess whoami: ubuntu
+
+transaction output: 1234
+   File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 8
+    NEW_PATH = /home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+               ^
+SyntaxError: invalid syntax
+
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:25:48.769581
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -1780701328704278014
+subprocess whoami: ubuntu
+
+transaction output: 1234
+sp_env stdout: PATH=/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+sp_env stderr: 
+sp_cdv stdout: 
+sp_cdv stderr: 
+ Traceback (most recent call last):
+  File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 20, in <module>
+    sp_build = subprocess.run(fcdv clsp build {WD}/nft.clsp.split(), capture_output=True)
+  File /usr/lib/python3.8/subprocess.py, line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File /usr/lib/python3.8/subprocess.py, line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File /usr/lib/python3.8/subprocess.py, line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'cdv'
+
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:28:38.132099
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: 1234
+   File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 16
+    sp_cdv = subprocess.run(fwhich cdv.split(), env=dict(PATH=NEW_PATH) capture_output=True)
+                                                                          ^
+SyntaxError: invalid syntax
+
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:28:54.836342
+====================
+received POST request at 2022-06-08 16:28:57.205651
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: 1234
+sp_env stdout: PATH=/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+sp_env stderr: 
+sp_cdv stdout: /home/ubuntu/.local/bin/cdv
+
+sp_cdv stderr: 
+ Traceback (most recent call last):
+  File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 20, in <module>
+    sp_build = subprocess.run(fcdv clsp build {WD}/nft.clsp.split(), capture_output=True)
+  File /usr/lib/python3.8/subprocess.py, line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File /usr/lib/python3.8/subprocess.py, line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File /usr/lib/python3.8/subprocess.py, line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'cdv'
+
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:30:32.790026
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: 1234
+sp_env stdout: PATH=/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+sp_env stderr: 
+sp_cdv stdout: /home/ubuntu/.local/bin/cdv
+
+sp_cdv stderr: 
+sp_build stdout: 
+sp_build stderr: Traceback (most recent call last):
+  File /home/ubuntu/.local/bin/cdv, line 8, in <module>
+    sys.exit(main())
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/cli.py, line 122, in main
+    cli()  # pylint: disable=no-value-for-parameter
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 829, in __call__
+    return self.main(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 782, in main
+    rv = self.invoke(ctx)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 610, in invoke
+    return callback(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/clsp.py, line 39, in build_cmd
+    for path in Path(project_path).rglob(glob):
+  File /usr/lib/python3.8/pathlib.py, line 1150, in rglob
+    raise NotImplementedError(Non-relative patterns are unsupported)
+NotImplementedError: Non-relative patterns are unsupported
+
+ Traceback (most recent call last):
+  File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 30, in <module>
+    sp_curry = subprocess.run(fcdv clsp curry {WD}/nft.clsp.hex -a {paired_hash} --treehash.split(), env=dict(PATH=NEW_PATH), apture_output=True)
+  File /usr/lib/python3.8/subprocess.py, line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+TypeError: __init__() got an unexpected keyword argument 'apture_output'
+
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:31:12.532053
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: 1234
+sp_env stdout: PATH=/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+sp_env stderr: 
+sp_cdv stdout: /home/ubuntu/.local/bin/cdv
+
+sp_cdv stderr: 
+sp_build stdout: 
+sp_build stderr: Traceback (most recent call last):
+  File /home/ubuntu/.local/bin/cdv, line 8, in <module>
+    sys.exit(main())
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/cli.py, line 122, in main
+    cli()  # pylint: disable=no-value-for-parameter
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 829, in __call__
+    return self.main(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 782, in main
+    rv = self.invoke(ctx)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 610, in invoke
+    return callback(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/clsp.py, line 39, in build_cmd
+    for path in Path(project_path).rglob(glob):
+  File /usr/lib/python3.8/pathlib.py, line 1150, in rglob
+    raise NotImplementedError(Non-relative patterns are unsupported)
+NotImplementedError: Non-relative patterns are unsupported
+
+sp_encode stderr: 
+sp_send stdout: Submitting transaction...
+Transaction submitted to nodes: [('3d95b35f4cec02b71a89a90502f1a9b4db4e3ddb8b922aeb17ea4670970072a8', 1, None)]
+Do chia wallet get_transaction -f 3047561162 -tx 0x840afad42fc6b1f0807f33d4213778e8ab6083a93faa059f46f1033291f0ce68 to get status
+sp_send stderr: 
+sp_tx_info stderr: 
+Transaction 840afad42fc6b1f0807f33d4213778e8ab6083a93faa059f46f1033291f0ce68
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:31:16
+ 
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:32:09.197839
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: 1234
+sp_env stdout: PATH=/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+sp_env stderr: 
+sp_cdv stdout: /home/ubuntu/.local/bin/cdv
+
+sp_cdv stderr: 
+sp_build stdout: 
+sp_build stderr: Traceback (most recent call last):
+  File /home/ubuntu/.local/bin/cdv, line 8, in <module>
+    sys.exit(main())
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/cli.py, line 122, in main
+    cli()  # pylint: disable=no-value-for-parameter
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 829, in __call__
+    return self.main(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 782, in main
+    rv = self.invoke(ctx)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 610, in invoke
+    return callback(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/clsp.py, line 39, in build_cmd
+    for path in Path(project_path).rglob(glob):
+  File /usr/lib/python3.8/pathlib.py, line 1150, in rglob
+    raise NotImplementedError(Non-relative patterns are unsupported)
+NotImplementedError: Non-relative patterns are unsupported
+
+sp_encode stderr: 
+sp_send stdout: Submitting transaction...
+Transaction submitted to nodes: [('3d95b35f4cec02b71a89a90502f1a9b4db4e3ddb8b922aeb17ea4670970072a8', 1, None)]
+Do chia wallet get_transaction -f 3047561162 -tx 0x86eb1e48f81786f3644e9b35a0ce35f9d4e1c94c62dad7a18978f8181a4a8ef3 to get status
+sp_send stderr: 
+sp_tx_info stderr: 
+Transaction 86eb1e48f81786f3644e9b35a0ce35f9d4e1c94c62dad7a18978f8181a4a8ef3
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:32:12
+ 
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:37:13.780367
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: 1234
+   File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 12
+    DEBUG and sp_env = subprocess.run(fenv.split(), env=dict(PATH=NEW_PATH), capture_output=True)
+    ^
+SyntaxError: cannot assign to operator
+
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:37:59.492196
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: 1234
+   File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 12
+    DEBUG and (sp_env = subprocess.run(fenv.split(), env=dict(PATH=NEW_PATH), capture_output=True))
+                      ^
+SyntaxError: invalid syntax
+
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:38:37.394986
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: 1234
+sp_build stdout: 
+sp_build stderr: Traceback (most recent call last):
+  File /home/ubuntu/.local/bin/cdv, line 8, in <module>
+    sys.exit(main())
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/cli.py, line 122, in main
+    cli()  # pylint: disable=no-value-for-parameter
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 829, in __call__
+    return self.main(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 782, in main
+    rv = self.invoke(ctx)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 610, in invoke
+    return callback(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/clsp.py, line 39, in build_cmd
+    for path in Path(project_path).rglob(glob):
+  File /usr/lib/python3.8/pathlib.py, line 1150, in rglob
+    raise NotImplementedError(Non-relative patterns are unsupported)
+NotImplementedError: Non-relative patterns are unsupported
+
+sp_tx_info stderr: 
+Transaction 9cfd8fa4c964c2975be1bd7cfc0357b16db07dcbec593a6ba4a1f3db61296745
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:38:40
+ 
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:39:29.980138
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: 1234
+sp_tx_info stderr: 
+Transaction 21808c4849711630ed621929b6018f57dfa5c1b49c51866c2be03d5633648813
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:39:33
+ 
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:39:45.791396
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: 1234
+Received error: list index out of range
+['Submitting', 'transaction...', 'Exception', 'from', wallet, {error:, ,, success:, 'False}']
+ 
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:40:00.980292
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: 1234
+Received error: list index out of range
+['Submitting', 'transaction...', 'Exception', 'from', wallet, {error:, ,, success:, 'False}']
+ 
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:40:10.044969
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: 1234
+sp_tx_info stderr: 
+Transaction 04bbe4433da2077bfab954016f99a9bfcdd9267eeec1c449e100ad2e5fe98f00
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:40:13
+ 
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:41:30.158512
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: 1234
+Received error: list index out of range
+['Submitting', 'transaction...', 'Exception', 'from', wallet, {error:, ,, success:, 'False}']
+ 
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:41:39.003889
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: 1234
+Received error: list index out of range
+['Submitting', 'transaction...', 'Exception', 'from', wallet, {error:, ,, success:, 'False}']
+ 
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:42:14.787460
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: 1234
+Transaction dbfff3eb84f140ae1dbc9fced161776c65539a5401f8d29880afc1881c61c717
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:42:18
+ 
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:45:08.755018
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: Received error: list index out of range
+Submitting transaction...
+Exception from 'wallet' {'error': '', 'success': False}
+ 
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:45:32.864924
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: Transaction 0bcf46ad9862557291a0ec7247702ec8df0664f7977ef79afeb1957682e5eb2d
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:45:36
+ 
+
+transaction error: 
+====================
+received POST request at 2022-06-08 16:48:09.223951
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: Transaction b0aff1d0f9923e9fd50069480533d1e82014b7eed263397f40651ca79c387d31
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:48:12
+ 
+
+transaction error: 
+====================
+received POST request at 2022-06-08 17:29:39.903858
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: Transaction 9c280904d20a4763e1359ee19be353945943b8eed32c3f7a94b46667bf0413e8
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 17:29:43
+ 
+
+transaction error: 
+====================
+received POST request at 2022-06-08 17:35:21.144941
+client data: {'ipfs_url': '123', 'wallet_address': '456'}
+hash of client data: -3989827847575813204
+subprocess whoami: ubuntu
+
+transaction output: Transaction 8692954a4069db6bba52de78c190e9fab0fb32fd25e1b9df0277af2190526418
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 17:35:24
+ 
+
+transaction error: 
+====================
+received POST request at 2022-06-08 17:48:44.807560
+transaction output: Transaction 2e2ded1db8b58781049f1a598fe9f32c9d1286678cea602cac98e6ae30421243
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch196crl4m5tgayqy9qte6h68eq98u7grputrtpef99tdnly084p8ksmm5ayl
+Created at: 2022-06-08 17:48:48
+ 
+
+transaction error: 
+JSON requested: no
+====================
+received GET request at 2022-06-08 17:51:00.758438
+====================
+received GET request at 2022-06-08 17:53:41.452977
+====================
+received POST request at 2022-06-08 17:59:22.429721
+====================
+received POST request at 2022-06-08 18:04:50.261654
+====================
+received POST request at 2022-06-08 18:05:06.908357
+====================
+received POST request at 2022-06-08 18:18:25.738321
+====================
+received POST request at 2022-06-08 18:18:53.862831
+====================
+received GET request at 2022-06-08 18:35:58.618618
+====================
+received GET request at 2022-06-08 18:35:58.665139
+====================
+received GET request at 2022-06-08 19:25:40.570825
+====================
+received GET request at 2022-06-08 19:25:44.329618
+====================
+received GET request at 2022-06-08 19:25:45.851295
+====================
+received GET request at 2022-06-08 19:25:49.712112
+====================
+received GET request at 2022-06-08 19:26:01.568799
+====================
+received GET request at 2022-06-08 19:26:07.058671
+====================
+received GET request at 2022-06-08 19:26:22.720817
+====================
+received POST request at 2022-06-08 19:28:03.198356
+====================
+received POST request at 2022-06-08 19:49:12.655643
+====================
+received GET request at 2022-06-08 20:04:39.613390
+====================
+received POST request at 2022-06-08 20:04:51.795076
+transaction output: Transaction be645e9f184730195d6c7b43385ac828d498f31a9f2a1fc12b2666f5a53da36a
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch196crl4m5tgayqy9qte6h68eq98u7grputrtpef99tdnly084p8ksmm5ayl
+Created at: 2022-06-08 20:04:55
+ 
+
+transaction error: 
+JSON requested: no
+====================
+received GET request at 2022-06-08 20:10:42.372252
+====================
+received POST request at 2022-06-08 20:27:02.813929
+====================
+received GET request at 2022-06-08 20:49:10.777652
+====================
+received POST request at 2022-06-08 20:58:48.417062
+====================
+received POST request at 2022-06-08 21:23:29.151341
+====================
+received GET request at 2022-06-08 21:27:12.942211
+====================
+received GET request at 2022-06-08 21:27:13.108605
+====================
+received GET request at 2022-06-08 21:27:13.115686
+====================
+received GET request at 2022-06-08 21:27:13.122484
+====================
+received POST request at 2022-06-08 21:27:13.129394
+====================
+received GET request at 2022-06-08 21:27:14.463796
+====================
+received HEAD request at 2022-06-08 21:27:14.613122
+====================
+received GET request at 2022-06-08 21:27:14.863874
+====================
+received GET request at 2022-06-08 21:27:23.238926
+====================
+received POST request at 2022-06-08 21:30:54.740265
+====================
+received GET request at 2022-06-08 21:32:46.737804
+====================
+received POST request at 2022-06-08 22:28:33.490998
+====================
+received POST request at 2022-06-08 23:12:19.348346
+====================
+received POST request at 2022-06-09 00:00:35.490206
+====================
+received POST request at 2022-06-09 00:24:21.474792
+====================
+received GET request at 2022-06-09 00:39:54.137894
+====================
+received POST request at 2022-06-09 00:55:07.189748
+====================
+received POST request at 2022-06-09 01:29:59.481933
+====================
+received POST request at 2022-06-09 01:38:12.314243
+====================
+received GET request at 2022-06-09 02:02:27.151902
+====================
+received POST request at 2022-06-09 02:14:58.896127
+transaction output: Transaction de140639cf8a471ea1cf12ca11198ad562312d492fe9a118ae19961ab05e341b
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch196crl4m5tgayqy9qte6h68eq98u7grputrtpef99tdnly084p8ksmm5ayl
+Created at: 2022-06-09 02:15:02
+ 
+
+transaction error: 
+JSON requested: no
+====================
+received GET request at 2022-06-09 02:28:02.010923
+====================
+received POST request at 2022-06-09 02:37:46.625216
+====================
+received GET request at 2022-06-09 02:45:49.519460
+====================
+received GET request at 2022-06-09 02:50:12.859174
+====================
+received POST request at 2022-06-09 02:57:28.713940
+transaction output: Transaction 156181f508b91ea463b565d3f20a4566beded3d73c22b057d2d687570929b339
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch196crl4m5tgayqy9qte6h68eq98u7grputrtpef99tdnly084p8ksmm5ayl
+Created at: 2022-06-09 02:57:32
+ 
+
+transaction error: 
+JSON requested: no
+====================
+received GET request at 2022-06-09 03:03:20.093097

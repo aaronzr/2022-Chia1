@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/Users/aaronreed/2022-Chia1/venv/bin/python3
+=======
+#!/home/ubuntu/2022-Chia1/venv/bin/python3
+>>>>>>> nft-clsp
 # -*- coding: utf-8 -*-
 import re
 import sys

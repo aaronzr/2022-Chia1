@@ -1,0 +1,886 @@
+received GET request at 2022-06-02 19:42:27.460154
+received GET request at 2022-06-02 19:49:45.870780
+received GET request at 2022-06-02 19:49:49.896610
+received GET request at 2022-06-02 20:46:35.697278
+received GET request at 2022-06-02 21:37:43.309220
+received GET request at 2022-06-02 21:40:25.539223
+received GET request at 2022-06-02 22:08:07.275505
+received GET request at 2022-06-02 22:14:08.619539
+received GET request at 2022-06-02 22:21:04.855641
+received GET request at 2022-06-02 22:21:11.664287
+received GET request at 2022-06-02 22:26:13.705877
+received GET request at 2022-06-02 22:28:41.650750
+received GET request at 2022-06-02 22:29:09.420527
+received POST request at 2022-06-02 22:32:10.397036
+data from client: The body of your request was: {'very0': 'long0', 'very1': 'long1', 'very2': 'long2', 'very3': 'long3', 'very4': 'long4'}
+received GET request at 2022-06-02 22:34:35.987501
+received GET request at 2022-06-02 22:36:23.593877
+received GET request at 2022-06-02 22:36:25.445425
+received GET request at 2022-06-02 22:47:40.855661
+received GET request at 2022-06-02 23:27:09.994785
+received GET request at 2022-06-02 23:36:13.302450
+received GET request at 2022-06-03 00:29:04.634847
+received GET request at 2022-06-03 00:55:38.653740
+received GET request at 2022-06-03 01:09:26.873486
+received GET request at 2022-06-03 01:51:56.883074
+received GET request at 2022-06-03 03:01:02.240596
+received GET request at 2022-06-03 03:55:55.878760
+received GET request at 2022-06-03 04:30:09.131385
+received GET request at 2022-06-03 04:31:41.978059
+received GET request at 2022-06-03 05:04:19.212943
+received GET request at 2022-06-03 05:20:16.858697
+received GET request at 2022-06-03 05:22:54.498499
+received GET request at 2022-06-03 05:28:33.936682
+received GET request at 2022-06-03 05:31:22.277906
+received GET request at 2022-06-03 06:20:25.352750
+received GET request at 2022-06-03 06:25:56.531879
+received GET request at 2022-06-03 07:00:48.513467
+received HEAD request at 2022-06-03 07:55:58.293339
+received GET request at 2022-06-03 08:06:59.850193
+received GET request at 2022-06-03 08:52:52.857951
+received GET request at 2022-06-03 11:18:41.323242
+received GET request at 2022-06-03 11:26:02.448032
+received GET request at 2022-06-03 11:35:41.972396
+received GET request at 2022-06-03 11:35:41.977205
+received GET request at 2022-06-03 12:04:06.586645
+received GET request at 2022-06-03 12:55:58.825293
+received GET request at 2022-06-03 13:05:33.062689
+received GET request at 2022-06-03 13:09:59.225099
+received GET request at 2022-06-03 13:37:05.346824
+received GET request at 2022-06-03 15:58:15.630484
+received GET request at 2022-06-03 16:22:16.361708
+received HEAD request at 2022-06-03 16:36:04.885877
+received GET request at 2022-06-03 16:36:07.985017
+received GET request at 2022-06-03 16:36:08.224990
+received GET request at 2022-06-03 17:23:15.891271
+received GET request at 2022-06-03 18:09:48.372060
+received GET request at 2022-06-03 18:47:40.525408
+received GET request at 2022-06-03 21:29:14.109314
+received GET request at 2022-06-03 21:29:14.164939
+received GET request at 2022-06-03 21:58:50.078315
+received GET request at 2022-06-03 22:09:22.912707
+received GET request at 2022-06-03 22:36:20.152479
+received GET request at 2022-06-03 22:36:20.219919
+received GET request at 2022-06-03 22:59:54.620147
+received GET request at 2022-06-03 23:08:35.326244
+received GET request at 2022-06-04 00:14:24.253274
+received GET request at 2022-06-04 00:14:33.584141
+received GET request at 2022-06-04 01:12:03.679090
+received GET request at 2022-06-04 01:53:12.258874
+received GET request at 2022-06-04 01:53:47.098956
+received GET request at 2022-06-04 02:24:42.986818
+received GET request at 2022-06-04 03:06:09.371208
+received GET request at 2022-06-04 03:14:26.519405
+received GET request at 2022-06-04 03:35:59.719319
+received GET request at 2022-06-04 03:40:49.699663
+received GET request at 2022-06-04 04:25:34.846933
+received GET request at 2022-06-04 07:09:58.345363
+received HEAD request at 2022-06-04 07:40:52.824390
+received GET request at 2022-06-04 07:56:16.312864
+received GET request at 2022-06-04 08:16:54.232728
+received GET request at 2022-06-04 08:35:03.860106
+received HEAD request at 2022-06-04 10:34:20.673852
+received GET request at 2022-06-04 10:34:23.432542
+received GET request at 2022-06-04 10:34:24.003922
+received GET request at 2022-06-04 10:34:24.706379
+received GET request at 2022-06-04 10:34:25.143907
+received GET request at 2022-06-04 10:42:48.928851
+received GET request at 2022-06-04 10:58:45.273304
+received GET request at 2022-06-04 12:34:14.742473
+received GET request at 2022-06-04 12:57:13.835250
+received GET request at 2022-06-04 13:32:09.471034
+received GET request at 2022-06-04 14:25:13.907921
+received GET request at 2022-06-04 14:50:01.116822
+received GET request at 2022-06-04 14:50:01.299248
+received GET request at 2022-06-04 15:11:25.588587
+received GET request at 2022-06-04 15:58:10.501254
+received GET request at 2022-06-04 16:04:18.523390
+received GET request at 2022-06-04 16:04:18.669187
+received GET request at 2022-06-04 16:26:22.233306
+received GET request at 2022-06-04 16:39:58.399172
+received GET request at 2022-06-04 16:51:39.258946
+received GET request at 2022-06-04 17:07:39.219938
+received GET request at 2022-06-04 17:07:39.270962
+received GET request at 2022-06-04 17:41:16.014809
+received GET request at 2022-06-04 17:41:16.086500
+received GET request at 2022-06-04 18:15:40.768722
+received GET request at 2022-06-04 18:51:36.979532
+received GET request at 2022-06-04 19:33:34.336640
+received GET request at 2022-06-04 20:13:09.455676
+received GET request at 2022-06-04 20:25:00.031066
+received GET request at 2022-06-04 20:26:17.616883
+received GET request at 2022-06-04 20:32:28.507099
+received GET request at 2022-06-04 20:54:51.311401
+received GET request at 2022-06-04 20:54:53.596524
+received HEAD request at 2022-06-04 20:54:53.789954
+received GET request at 2022-06-04 22:41:15.284119
+received GET request at 2022-06-04 22:41:15.328069
+received GET request at 2022-06-04 23:09:48.186693
+received GET request at 2022-06-04 23:18:33.926359
+received GET request at 2022-06-04 23:41:06.554877
+received GET request at 2022-06-05 00:29:57.018053
+received GET request at 2022-06-05 00:42:55.057672
+received GET request at 2022-06-05 00:42:55.284331
+received GET request at 2022-06-05 00:43:00.744939
+received GET request at 2022-06-05 01:43:12.843915
+received GET request at 2022-06-05 01:47:42.332932
+received GET request at 2022-06-05 01:48:00.715536
+received GET request at 2022-06-05 02:03:56.021906
+received GET request at 2022-06-05 02:49:54.125078
+received GET request at 2022-06-05 02:49:54.766529
+received GET request at 2022-06-05 02:49:57.921770
+received GET request at 2022-06-05 02:50:00.768311
+received HEAD request at 2022-06-05 02:50:55.253578
+received GET request at 2022-06-05 02:50:56.102292
+received GET request at 2022-06-05 02:51:00.048197
+received GET request at 2022-06-05 04:44:27.403752
+received GET request at 2022-06-05 06:11:12.524277
+received GET request at 2022-06-05 07:04:53.275386
+received GET request at 2022-06-05 07:18:08.123431
+received GET request at 2022-06-05 08:05:10.756044
+received GET request at 2022-06-05 08:20:06.147507
+received GET request at 2022-06-05 08:48:50.954339
+received GET request at 2022-06-05 09:26:17.522032
+received GET request at 2022-06-05 10:44:18.013041
+received GET request at 2022-06-05 11:43:53.786163
+received GET request at 2022-06-05 13:15:18.455398
+received GET request at 2022-06-05 14:03:32.513887
+received GET request at 2022-06-05 14:59:36.032313
+received GET request at 2022-06-05 15:27:24.163907
+received GET request at 2022-06-05 15:52:25.473721
+received GET request at 2022-06-05 15:52:25.605285
+received HEAD request at 2022-06-05 16:44:52.581928
+received GET request at 2022-06-05 16:44:53.422946
+received GET request at 2022-06-05 16:44:54.182481
+received GET request at 2022-06-05 16:44:54.466103
+received GET request at 2022-06-05 16:44:57.398828
+received GET request at 2022-06-05 17:00:55.363222
+received GET request at 2022-06-05 17:22:21.934284
+received GET request at 2022-06-05 18:05:51.557542
+received GET request at 2022-06-05 18:09:14.174811
+received GET request at 2022-06-05 19:19:37.847321
+received GET request at 2022-06-05 19:20:42.969737
+received GET request at 2022-06-05 19:56:37.954290
+received GET request at 2022-06-05 20:03:29.172708
+received GET request at 2022-06-05 20:44:27.201953
+received GET request at 2022-06-05 21:27:13.227235
+received GET request at 2022-06-05 21:27:13.270481
+received GET request at 2022-06-05 21:29:44.265521
+received GET request at 2022-06-05 21:48:25.485617
+received GET request at 2022-06-05 23:09:32.696491
+received GET request at 2022-06-06 00:01:23.932535
+received GET request at 2022-06-06 00:08:12.550645
+received GET request at 2022-06-06 00:16:07.610124
+received GET request at 2022-06-06 01:35:22.925934
+received POST request at 2022-06-06 01:42:06.784048
+data from client: The body of your request was: [{'wallet_address': 'address', 'ipfs_url': 'ipfs_url'}]
+received POST request at 2022-06-06 01:45:07.419088
+data from client: The body of your request was: [{'wallet_address': 'address', 'ipfs_url': 'ipfs_url'}]
+received GET request at 2022-06-06 01:57:18.949119
+received GET request at 2022-06-06 02:06:25.599312
+received POST request at 2022-06-06 02:09:55.930975
+data from client: The body of your request was: [{'wallet_address': 'address', 'ipfs_url': 'ipfs_url'}]
+received POST request at 2022-06-06 02:14:27.219557
+data from client: The body of your request was: [{'wallet_address': 'address', 'ipfs_url': 'ipfs_url'}]
+received POST request at 2022-06-06 02:15:18.875437
+data from client: The body of your request was: [{'wallet_address': 'address', 'ipfs_url': 'ipfs_url'}]
+received GET request at 2022-06-06 02:30:33.585811
+received POST request at 2022-06-06 02:35:20.565023
+data from client: The body of your request was: [{'wallet_address': 'address', 'ipfs_url': 'ipfs_url'}]
+received GET request at 2022-06-06 06:00:25.333751
+received GET request at 2022-06-06 06:14:07.246075
+received GET request at 2022-06-06 07:19:13.415189
+received GET request at 2022-06-06 08:46:22.082143
+received GET request at 2022-06-06 10:30:34.977381
+received GET request at 2022-06-06 10:30:35.029579
+received GET request at 2022-06-06 11:04:01.113882
+received GET request at 2022-06-06 11:10:07.235273
+received HEAD request at 2022-06-06 11:49:57.295966
+received GET request at 2022-06-06 11:50:02.599588
+received GET request at 2022-06-06 11:50:03.940459
+received GET request at 2022-06-06 11:50:04.424583
+received GET request at 2022-06-06 11:50:05.475961
+received GET request at 2022-06-06 11:50:06.685782
+received GET request at 2022-06-06 12:38:05.089649
+received GET request at 2022-06-06 12:47:25.873807
+received GET request at 2022-06-06 12:47:25.926730
+received GET request at 2022-06-06 14:01:42.869076
+received GET request at 2022-06-06 14:16:51.440855
+received GET request at 2022-06-06 14:21:21.173485
+received GET request at 2022-06-06 14:27:36.588080
+received GET request at 2022-06-06 14:57:23.888369
+received GET request at 2022-06-06 14:59:39.428627
+received GET request at 2022-06-06 15:29:06.861379
+received GET request at 2022-06-06 15:44:44.463519
+received GET request at 2022-06-06 15:55:09.566726
+received GET request at 2022-06-06 15:59:20.005258
+received GET request at 2022-06-06 17:09:51.087594
+received GET request at 2022-06-06 17:14:38.922267
+received GET request at 2022-06-06 17:17:56.677412
+received GET request at 2022-06-06 17:17:57.555604
+received GET request at 2022-06-06 17:17:57.585305
+received GET request at 2022-06-06 18:27:41.218664
+received GET request at 2022-06-06 18:35:40.612303
+received GET request at 2022-06-06 19:29:05.410051
+received GET request at 2022-06-06 20:11:42.201990
+received GET request at 2022-06-06 22:16:58.671186
+received GET request at 2022-06-06 22:32:01.931916
+received POST request at 2022-06-06 22:32:14.149540
+data from client: The body of your request was: {'very0': 'long0', 'very1': 'long1', 'very2': 'long2', 'very3': 'long3', 'very4': 'long4'}
+received POST request at 2022-06-06 22:36:31.143757
+data from client: The body of your request was: {'very0': 'long0', 'very1': 'long1', 'very2': 'long2', 'very3': 'long3', 'very4': 'long4'}
+received POST request at 2022-06-06 22:38:06.082036
+data from client: Ronald McDonald: {'very0': 'long0', 'very1': 'long1', 'very2': 'long2', 'very3': 'long3', 'very4': 'long4'}
+received GET request at 2022-06-06 23:12:23.511253
+received POST request at 2022-06-06 23:12:33.266541
+data from client: Error: 'ipfs_url'
+ JSON improperly formatted. Please use ipfs_url and wallet_address as keys. You sent: {'very0': 'long0', 'very1': 'long1', 'very2': 'long2', 'very3': 'long3', 'very4': 'long4'}
+received GET request at 2022-06-06 23:13:51.393094
+received POST request at 2022-06-06 23:30:03.200936
+data from client: Error: 'ipfs_url'
+ JSON improperly formatted. Please use ipfs_url and wallet_address as keys. You sent: {'1': 2, '3': 4}
+received POST request at 2022-06-06 23:30:53.032485
+data from client: Error: 'ipfs_url'
+ JSON improperly formatted. Please use ipfs_url and wallet_address as keys. You sent: {'1': 2, '3': 4}
+received POST request at 2022-06-06 23:45:14.685113
+data from client: Error: 'ipfs_url'
+ JSON improperly formatted. Please use ipfs_url and wallet_address as keys. You sent: {'1': 2, '3': 4}
+received GET request at 2022-06-06 23:48:28.319503
+received POST request at 2022-06-06 23:48:31.265285
+data from client: 
+received POST request at 2022-06-06 23:53:54.567298
+data from client: Request success!
+
+received GET request at 2022-06-07 00:03:27.646660
+received POST request at 2022-06-07 00:10:09.407341
+data from client: Request success!
+
+received POST request at 2022-06-07 00:10:55.956953
+data from client: Request success!
+
+received POST request at 2022-06-07 00:14:33.743268
+data from client: Request success!
+
+received POST request at 2022-06-07 00:16:34.609520
+data from client: Request failed!
+
+received POST request at 2022-06-07 00:17:11.543768
+data from client: Request failed!
+
+received POST request at 2022-06-07 00:18:25.519428
+data from client: Error: 'ipfs_url'
+ JSON improperly formatted. Please use ipfs_url and wallet_address as keys. You sent: {'1': 2, '3': 4}
+received POST request at 2022-06-07 00:52:43.445641
+received GET request at 2022-06-07 01:07:19.675993
+received GET request at 2022-06-07 01:23:52.261150
+received GET request at 2022-06-07 01:46:26.665356
+received GET request at 2022-06-07 03:37:07.703722
+received GET request at 2022-06-07 03:37:07.887368
+received GET request at 2022-06-07 03:46:58.052616
+received HEAD request at 2022-06-07 03:48:03.109136
+received GET request at 2022-06-07 03:59:39.305381
+received GET request at 2022-06-07 04:14:28.740202
+received GET request at 2022-06-07 04:45:40.423235
+received GET request at 2022-06-07 06:31:57.170669
+received GET request at 2022-06-07 06:32:07.460155
+received GET request at 2022-06-07 06:32:09.294897
+received GET request at 2022-06-07 07:11:39.480583
+received GET request at 2022-06-07 07:55:37.642548
+received GET request at 2022-06-07 08:13:18.852282
+received GET request at 2022-06-07 11:26:51.466975
+received GET request at 2022-06-07 11:55:57.275374
+received GET request at 2022-06-07 14:03:04.305688
+received GET request at 2022-06-07 14:37:12.136393
+received GET request at 2022-06-07 14:45:47.299477
+received GET request at 2022-06-07 14:52:05.454818
+received GET request at 2022-06-07 15:30:01.589822
+received GET request at 2022-06-07 15:58:56.217101
+received GET request at 2022-06-07 16:27:15.207699
+received GET request at 2022-06-07 16:47:04.544187
+received GET request at 2022-06-07 17:59:27.910035
+received GET request at 2022-06-07 18:22:34.475950
+received GET request at 2022-06-07 19:06:43.610190
+received GET request at 2022-06-07 19:06:43.674164
+received GET request at 2022-06-07 19:32:49.316189
+received GET request at 2022-06-07 21:19:47.763326
+received GET request at 2022-06-07 23:41:26.903058
+received GET request at 2022-06-07 23:48:49.698367
+received GET request at 2022-06-07 23:58:10.679540
+received GET request at 2022-06-08 00:08:31.284694
+received GET request at 2022-06-08 00:11:58.827816
+received GET request at 2022-06-08 00:20:26.191767
+received GET request at 2022-06-08 00:20:26.524951
+received GET request at 2022-06-08 00:47:31.215933
+received GET request at 2022-06-08 01:52:40.009248
+received GET request at 2022-06-08 03:22:01.660233
+received GET request at 2022-06-08 06:35:51.515424
+received GET request at 2022-06-08 07:50:25.404958
+received GET request at 2022-06-08 07:59:32.316286
+received GET request at 2022-06-08 08:03:30.343315
+received GET request at 2022-06-08 08:45:10.426070
+received GET request at 2022-06-08 08:57:28.484771
+received GET request at 2022-06-08 09:52:07.474431
+received GET request at 2022-06-08 10:19:10.304153
+received GET request at 2022-06-08 10:19:59.327568
+received GET request at 2022-06-08 10:43:49.401445
+received GET request at 2022-06-08 10:58:18.382998
+received GET request at 2022-06-08 11:01:25.227117
+received POST request at 2022-06-08 11:12:44.493906
+response to client: Malformed request! Please use ipfs_url and wallet_address as keys. You sent: {'1': 2, '3': 4}
+received POST request at 2022-06-08 11:13:09.419606
+response to client: Request failed!
+
+received GET request at 2022-06-08 11:16:31.125887
+received GET request at 2022-06-08 11:17:29.496166
+received GET request at 2022-06-08 11:17:45.227276
+received GET request at 2022-06-08 11:18:26.304970
+received POST request at 2022-06-08 11:18:39.183395
+response to client: Request failed!
+
+received GET request at 2022-06-08 11:25:40.580189
+received GET request at 2022-06-08 12:23:37.949656
+received GET request at 2022-06-08 12:25:50.505730
+received POST request at 2022-06-08 12:53:56.259257
+response to client: Request failed!
+
+received POST request at 2022-06-08 13:25:24.575007
+response to client: slept for 2 seconds
+received POST request at 2022-06-08 13:25:37.450267
+response to client: slept for 2 seconds
+received POST request at 2022-06-08 13:27:47.172217
+response to client: slept for 2 seconds
+received GET request at 2022-06-08 13:32:35.106821
+received POST request at 2022-06-08 13:45:02.887061
+response to client: 
+received GET request at 2022-06-08 13:54:56.252939
+received GET request at 2022-06-08 14:10:02.851214
+received GET request at 2022-06-08 14:10:55.762050
+received POST request at 2022-06-08 14:11:02.173571
+response to client: 
+received GET request at 2022-06-08 14:15:58.885178
+received POST request at 2022-06-08 14:16:17.666778
+response to client: 
+received GET request at 2022-06-08 14:30:35.652114
+received GET request at 2022-06-08 14:30:35.679376
+received POST request at 2022-06-08 14:31:07.444180
+response to client: 
+received GET request at 2022-06-08 14:39:18.830544
+received POST request at 2022-06-08 14:39:26.127594
+response to client: slept for 2 seconds
+received POST request at 2022-06-08 14:39:33.321960
+response to client: slept for 2 seconds
+received POST request at 2022-06-08 14:46:02.976526
+response to client: 
+received POST request at 2022-06-08 14:46:05.213638
+response to client: 
+received POST request at 2022-06-08 14:49:45.803481
+response to client: 
+received POST request at 2022-06-08 14:52:14.243736
+response to client: slept for 5 seconds
+
+received POST request at 2022-06-08 14:55:20.607354
+response to client: 1234
+ Traceback (most recent call last):
+  File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 6, in <module>
+    sp_build = subprocess.run(cdv clsp build {WD}/nft.clsp.split())
+  File /usr/lib/python3.8/subprocess.py, line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File /usr/lib/python3.8/subprocess.py, line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File /usr/lib/python3.8/subprocess.py, line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'cdv'
+
+
+received POST request at 2022-06-08 15:04:02.094661
+response to client: 1234
+ Traceback (most recent call last):
+  File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 6, in <module>
+    sp_build = subprocess.run(fcdv clsp build {WD}/nft.clsp.split())
+  File /usr/lib/python3.8/subprocess.py, line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File /usr/lib/python3.8/subprocess.py, line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File /usr/lib/python3.8/subprocess.py, line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'cdv'
+
+
+received GET request at 2022-06-08 15:04:52.646898
+received POST request at 2022-06-08 15:34:45.595949
+response to client: 1234
+ Traceback (most recent call last):
+  File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 6, in <module>
+    sp_build = subprocess.run(fcdv clsp build {WD}/nft.clsp.split())
+  File /usr/lib/python3.8/subprocess.py, line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File /usr/lib/python3.8/subprocess.py, line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File /usr/lib/python3.8/subprocess.py, line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'cdv'
+
+
+received GET request at 2022-06-08 15:34:45.605534
+received POST request at 2022-06-08 15:39:26.434056
+response to client: 1234
+ Traceback (most recent call last):
+  File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 6, in <module>
+    sp_build = subprocess.run(fcdv clsp build {WD}/nft.clsp.split())
+  File /usr/lib/python3.8/subprocess.py, line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File /usr/lib/python3.8/subprocess.py, line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File /usr/lib/python3.8/subprocess.py, line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'cdv'
+
+
+received POST request at 2022-06-08 15:40:11.945917
+response to client: 1234
+ Traceback (most recent call last):
+  File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 6, in <module>
+    sp_build = subprocess.run(fcdv clsp build {WD}/nft.clsp.split())
+  File /usr/lib/python3.8/subprocess.py, line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File /usr/lib/python3.8/subprocess.py, line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File /usr/lib/python3.8/subprocess.py, line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'cdv'
+
+
+received GET request at 2022-06-08 15:48:12.014710
+received POST request at 2022-06-08 15:48:18.321738
+received GET request at 2022-06-08 15:52:18.765436
+received GET request at 2022-06-08 15:53:04.714774
+received POST request at 2022-06-08 15:53:17.385423
+response to client: 1234
+sp_cdv stdout: 
+sp_cdv stderr: 
+ Traceback (most recent call last):
+  File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 12, in <module>
+    sp_build = subprocess.run(fcdv clsp build {WD}/nft.clsp.split(), capture_output=True)
+  File /usr/lib/python3.8/subprocess.py, line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File /usr/lib/python3.8/subprocess.py, line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File /usr/lib/python3.8/subprocess.py, line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'cdv'
+
+
+received POST request at 2022-06-08 16:13:45.697029
+response to client: 1234
+sp_env stdout: LANG=C.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+HOME=/home/ubuntu
+LOGNAME=ubuntu
+USER=ubuntu
+SHELL=/bin/bash
+INVOCATION_ID=47adc28d851e47ba825b0ce9fa33c239
+JOURNAL_STREAM=8:23178
+SERVER_SOFTWARE=gunicorn/20.1.0
+
+sp_env stderr: 
+sp_cdv stdout: 
+sp_cdv stderr: 
+ Traceback (most recent call last):
+  File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 17, in <module>
+    sp_build = subprocess.run(fcdv clsp build {WD}/nft.clsp.split(), capture_output=True)
+  File /usr/lib/python3.8/subprocess.py, line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File /usr/lib/python3.8/subprocess.py, line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File /usr/lib/python3.8/subprocess.py, line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'cdv'
+
+
+received POST request at 2022-06-08 16:23:54.508559
+response to client: 1234
+   File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 8
+    NEW_PATH = /home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+               ^
+SyntaxError: invalid syntax
+
+
+received POST request at 2022-06-08 16:25:49.190435
+response to client: 1234
+sp_env stdout: PATH=/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+sp_env stderr: 
+sp_cdv stdout: 
+sp_cdv stderr: 
+ Traceback (most recent call last):
+  File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 20, in <module>
+    sp_build = subprocess.run(fcdv clsp build {WD}/nft.clsp.split(), capture_output=True)
+  File /usr/lib/python3.8/subprocess.py, line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File /usr/lib/python3.8/subprocess.py, line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File /usr/lib/python3.8/subprocess.py, line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'cdv'
+
+
+received POST request at 2022-06-08 16:28:38.539919
+response to client: 1234
+   File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 16
+    sp_cdv = subprocess.run(fwhich cdv.split(), env=dict(PATH=NEW_PATH) capture_output=True)
+                                                                          ^
+SyntaxError: invalid syntax
+
+
+received POST request at 2022-06-08 16:28:57.457333
+response to client: 1234
+sp_env stdout: PATH=/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+sp_env stderr: 
+sp_cdv stdout: /home/ubuntu/.local/bin/cdv
+
+sp_cdv stderr: 
+ Traceback (most recent call last):
+  File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 20, in <module>
+    sp_build = subprocess.run(fcdv clsp build {WD}/nft.clsp.split(), capture_output=True)
+  File /usr/lib/python3.8/subprocess.py, line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File /usr/lib/python3.8/subprocess.py, line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File /usr/lib/python3.8/subprocess.py, line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'cdv'
+
+
+received POST request at 2022-06-08 16:30:34.312002
+response to client: 1234
+sp_env stdout: PATH=/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+sp_env stderr: 
+sp_cdv stdout: /home/ubuntu/.local/bin/cdv
+
+sp_cdv stderr: 
+sp_build stdout: 
+sp_build stderr: Traceback (most recent call last):
+  File /home/ubuntu/.local/bin/cdv, line 8, in <module>
+    sys.exit(main())
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/cli.py, line 122, in main
+    cli()  # pylint: disable=no-value-for-parameter
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 829, in __call__
+    return self.main(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 782, in main
+    rv = self.invoke(ctx)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 610, in invoke
+    return callback(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/clsp.py, line 39, in build_cmd
+    for path in Path(project_path).rglob(glob):
+  File /usr/lib/python3.8/pathlib.py, line 1150, in rglob
+    raise NotImplementedError(Non-relative patterns are unsupported)
+NotImplementedError: Non-relative patterns are unsupported
+
+ Traceback (most recent call last):
+  File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 30, in <module>
+    sp_curry = subprocess.run(fcdv clsp curry {WD}/nft.clsp.hex -a {paired_hash} --treehash.split(), env=dict(PATH=NEW_PATH), apture_output=True)
+  File /usr/lib/python3.8/subprocess.py, line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+TypeError: __init__() got an unexpected keyword argument 'apture_output'
+
+
+received POST request at 2022-06-08 16:31:17.325147
+response to client: 1234
+sp_env stdout: PATH=/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+sp_env stderr: 
+sp_cdv stdout: /home/ubuntu/.local/bin/cdv
+
+sp_cdv stderr: 
+sp_build stdout: 
+sp_build stderr: Traceback (most recent call last):
+  File /home/ubuntu/.local/bin/cdv, line 8, in <module>
+    sys.exit(main())
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/cli.py, line 122, in main
+    cli()  # pylint: disable=no-value-for-parameter
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 829, in __call__
+    return self.main(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 782, in main
+    rv = self.invoke(ctx)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 610, in invoke
+    return callback(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/clsp.py, line 39, in build_cmd
+    for path in Path(project_path).rglob(glob):
+  File /usr/lib/python3.8/pathlib.py, line 1150, in rglob
+    raise NotImplementedError(Non-relative patterns are unsupported)
+NotImplementedError: Non-relative patterns are unsupported
+
+sp_encode stderr: 
+sp_send stdout: Submitting transaction...
+Transaction submitted to nodes: [('3d95b35f4cec02b71a89a90502f1a9b4db4e3ddb8b922aeb17ea4670970072a8', 1, None)]
+Do chia wallet get_transaction -f 3047561162 -tx 0x840afad42fc6b1f0807f33d4213778e8ab6083a93faa059f46f1033291f0ce68 to get status
+sp_send stderr: 
+sp_tx_info stderr: 
+Transaction 840afad42fc6b1f0807f33d4213778e8ab6083a93faa059f46f1033291f0ce68
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:31:16
+ 
+
+received POST request at 2022-06-08 16:32:14.001054
+response to client: 1234
+sp_env stdout: PATH=/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+sp_env stderr: 
+sp_cdv stdout: /home/ubuntu/.local/bin/cdv
+
+sp_cdv stderr: 
+sp_build stdout: 
+sp_build stderr: Traceback (most recent call last):
+  File /home/ubuntu/.local/bin/cdv, line 8, in <module>
+    sys.exit(main())
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/cli.py, line 122, in main
+    cli()  # pylint: disable=no-value-for-parameter
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 829, in __call__
+    return self.main(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 782, in main
+    rv = self.invoke(ctx)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 610, in invoke
+    return callback(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/clsp.py, line 39, in build_cmd
+    for path in Path(project_path).rglob(glob):
+  File /usr/lib/python3.8/pathlib.py, line 1150, in rglob
+    raise NotImplementedError(Non-relative patterns are unsupported)
+NotImplementedError: Non-relative patterns are unsupported
+
+sp_encode stderr: 
+sp_send stdout: Submitting transaction...
+Transaction submitted to nodes: [('3d95b35f4cec02b71a89a90502f1a9b4db4e3ddb8b922aeb17ea4670970072a8', 1, None)]
+Do chia wallet get_transaction -f 3047561162 -tx 0x86eb1e48f81786f3644e9b35a0ce35f9d4e1c94c62dad7a18978f8181a4a8ef3 to get status
+sp_send stderr: 
+sp_tx_info stderr: 
+Transaction 86eb1e48f81786f3644e9b35a0ce35f9d4e1c94c62dad7a18978f8181a4a8ef3
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:32:12
+ 
+
+received POST request at 2022-06-08 16:37:14.031123
+response to client: 1234
+   File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 12
+    DEBUG and sp_env = subprocess.run(fenv.split(), env=dict(PATH=NEW_PATH), capture_output=True)
+    ^
+SyntaxError: cannot assign to operator
+
+
+received POST request at 2022-06-08 16:37:59.735055
+response to client: 1234
+   File /home/ubuntu/2022-Chia1/chia-contracts/piggybank/shell_command.py, line 12
+    DEBUG and (sp_env = subprocess.run(fenv.split(), env=dict(PATH=NEW_PATH), capture_output=True))
+                      ^
+SyntaxError: invalid syntax
+
+
+received POST request at 2022-06-08 16:38:42.217647
+response to client: 1234
+sp_build stdout: 
+sp_build stderr: Traceback (most recent call last):
+  File /home/ubuntu/.local/bin/cdv, line 8, in <module>
+    sys.exit(main())
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/cli.py, line 122, in main
+    cli()  # pylint: disable=no-value-for-parameter
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 829, in __call__
+    return self.main(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 782, in main
+    rv = self.invoke(ctx)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/click/core.py, line 610, in invoke
+    return callback(*args, **kwargs)
+  File /home/ubuntu/.local/lib/python3.8/site-packages/cdv/cmds/clsp.py, line 39, in build_cmd
+    for path in Path(project_path).rglob(glob):
+  File /usr/lib/python3.8/pathlib.py, line 1150, in rglob
+    raise NotImplementedError(Non-relative patterns are unsupported)
+NotImplementedError: Non-relative patterns are unsupported
+
+sp_tx_info stderr: 
+Transaction 9cfd8fa4c964c2975be1bd7cfc0357b16db07dcbec593a6ba4a1f3db61296745
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:38:40
+ 
+
+received POST request at 2022-06-08 16:39:34.711955
+response to client: 1234
+sp_tx_info stderr: 
+Transaction 21808c4849711630ed621929b6018f57dfa5c1b49c51866c2be03d5633648813
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:39:33
+ 
+
+received POST request at 2022-06-08 16:39:49.301017
+response to client: 1234
+Received error: list index out of range
+['Submitting', 'transaction...', 'Exception', 'from', wallet, {error:, ,, success:, 'False}']
+ 
+
+received POST request at 2022-06-08 16:40:04.619384
+response to client: 1234
+Received error: list index out of range
+['Submitting', 'transaction...', 'Exception', 'from', wallet, {error:, ,, success:, 'False}']
+ 
+
+received POST request at 2022-06-08 16:40:14.881579
+response to client: 1234
+sp_tx_info stderr: 
+Transaction 04bbe4433da2077bfab954016f99a9bfcdd9267eeec1c449e100ad2e5fe98f00
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:40:13
+ 
+
+received POST request at 2022-06-08 16:41:33.718407
+response to client: 1234
+Received error: list index out of range
+['Submitting', 'transaction...', 'Exception', 'from', wallet, {error:, ,, success:, 'False}']
+ 
+
+received POST request at 2022-06-08 16:41:42.529130
+response to client: 1234
+Received error: list index out of range
+['Submitting', 'transaction...', 'Exception', 'from', wallet, {error:, ,, success:, 'False}']
+ 
+
+received POST request at 2022-06-08 16:42:19.608435
+response to client: 1234
+Transaction dbfff3eb84f140ae1dbc9fced161776c65539a5401f8d29880afc1881c61c717
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:42:18
+ 
+
+received POST request at 2022-06-08 16:45:12.398836
+response to client: Received error: list index out of range
+Submitting transaction...
+Exception from 'wallet' {'error': '', 'success': False}
+ 
+
+received POST request at 2022-06-08 16:45:37.734384
+response to client: Transaction 0bcf46ad9862557291a0ec7247702ec8df0664f7977ef79afeb1957682e5eb2d
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:45:36
+ 
+
+received POST request at 2022-06-08 16:48:14.061121
+response to client: Transaction b0aff1d0f9923e9fd50069480533d1e82014b7eed263397f40651ca79c387d31
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 16:48:12
+ 
+
+received POST request at 2022-06-08 17:29:44.776597
+response to client: Transaction 9c280904d20a4763e1359ee19be353945943b8eed32c3f7a94b46667bf0413e8
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 17:29:43
+ 
+
+received POST request at 2022-06-08 17:35:25.965511
+response to client: Transaction 8692954a4069db6bba52de78c190e9fab0fb32fd25e1b9df0277af2190526418
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch1rc4sngk9ku4wvuwc50lq465dzhtjsdfqzufxv8krr7ektv908r3s56wr99
+Created at: 2022-06-08 17:35:24
+ 
+
+received POST request at 2022-06-08 17:48:50.346390
+response to client: Transaction 2e2ded1db8b58781049f1a598fe9f32c9d1286678cea602cac98e6ae30421243
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch196crl4m5tgayqy9qte6h68eq98u7grputrtpef99tdnly084p8ksmm5ayl
+Created at: 2022-06-08 17:48:48
+ 
+
+received GET request at 2022-06-08 17:51:00.759169
+received GET request at 2022-06-08 17:53:41.453641
+received GET request at 2022-06-08 18:35:58.619257
+received GET request at 2022-06-08 18:35:58.665786
+received GET request at 2022-06-08 19:25:40.571459
+received GET request at 2022-06-08 19:25:44.330278
+received GET request at 2022-06-08 19:25:45.851920
+received GET request at 2022-06-08 19:25:49.712784
+received GET request at 2022-06-08 19:26:01.569414
+received GET request at 2022-06-08 19:26:07.059312
+received GET request at 2022-06-08 19:26:22.721488
+received GET request at 2022-06-08 20:04:39.614073
+received POST request at 2022-06-08 20:04:56.735176
+response to client: Transaction be645e9f184730195d6c7b43385ac828d498f31a9f2a1fc12b2666f5a53da36a
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch196crl4m5tgayqy9qte6h68eq98u7grputrtpef99tdnly084p8ksmm5ayl
+Created at: 2022-06-08 20:04:55
+ 
+
+received GET request at 2022-06-08 20:10:42.372971
+received GET request at 2022-06-08 20:49:10.778391
+received GET request at 2022-06-08 21:27:12.942885
+received GET request at 2022-06-08 21:27:13.109236
+received GET request at 2022-06-08 21:27:13.116315
+received GET request at 2022-06-08 21:27:13.123102
+received GET request at 2022-06-08 21:27:14.464464
+received HEAD request at 2022-06-08 21:27:14.613803
+received GET request at 2022-06-08 21:27:14.864559
+received GET request at 2022-06-08 21:27:23.239562
+received GET request at 2022-06-08 21:32:46.738484
+received GET request at 2022-06-09 00:39:54.138540
+received GET request at 2022-06-09 02:02:27.152567
+received POST request at 2022-06-09 02:15:04.000185
+response to client: Transaction de140639cf8a471ea1cf12ca11198ad562312d492fe9a118ae19961ab05e341b
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch196crl4m5tgayqy9qte6h68eq98u7grputrtpef99tdnly084p8ksmm5ayl
+Created at: 2022-06-09 02:15:02
+ 
+
+received GET request at 2022-06-09 02:28:02.011540
+received GET request at 2022-06-09 02:45:49.520086
+received GET request at 2022-06-09 02:50:12.859801
+received POST request at 2022-06-09 02:57:33.526126
+response to client: Transaction 156181f508b91ea463b565d3f20a4566beded3d73c22b057d2d687570929b339
+Status: In mempool
+Amount sent: 0 XCH
+To address: xch196crl4m5tgayqy9qte6h68eq98u7grputrtpef99tdnly084p8ksmm5ayl
+Created at: 2022-06-09 02:57:32
+ 
+
+received GET request at 2022-06-09 03:03:20.093775

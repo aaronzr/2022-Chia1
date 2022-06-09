@@ -8,7 +8,11 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
+<<<<<<< HEAD
 setenv VIRTUAL_ENV "/Users/aaronreed/2022-Chia1/venv"
+=======
+setenv VIRTUAL_ENV "/home/ubuntu/2022-Chia1/venv"
+>>>>>>> nft-clsp
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
@@ -17,7 +21,23 @@ setenv PATH "$VIRTUAL_ENV/bin:$PATH"
 set _OLD_VIRTUAL_PROMPT="$prompt"
 
 if (! "$?VIRTUAL_ENV_DISABLE_PROMPT") then
+<<<<<<< HEAD
     set prompt = "(venv) $prompt"
+=======
+    if ("venv" != "") then
+        set env_name = "venv"
+    else
+        if (`basename "VIRTUAL_ENV"` == "__") then
+            # special case for Aspen magic directories
+            # see https://aspen.io/
+            set env_name = `basename \`dirname "$VIRTUAL_ENV"\``
+        else
+            set env_name = `basename "$VIRTUAL_ENV"`
+        endif
+    endif
+    set prompt = "[$env_name] $prompt"
+    unset env_name
+>>>>>>> nft-clsp
 endif
 
 alias pydoc python -m pydoc

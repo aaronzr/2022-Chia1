@@ -1,0 +1,25 @@
+
+ (mod
+    (   
+        WALLET_IPFS_PAIRED_HASH ;puzzle maker makes these, not the solver.
+        paired_hash 
+        my_puzzle_hash 
+     )
+
+    (include condition_codes.clib) 
+
+    ; (defconstant TARGET_AMOUNT 500)
+    ; (defconstant CASH_OUT_PUZZLE_HASH 0xcafef00d)
+
+    (defun-inline recreate_self (paired_hash my_puzzle_hash)
+        (list
+            (list CREATE_COIN my_puzzle_hash 0) ;create new for this person
+        )
+    )
+
+    (if (= paired_hash WALLET_IPFS_PAIRED_HASH)
+        (recreate_self paired_hash my_puzzle_hash)
+        (x)
+    )
+ )
+
